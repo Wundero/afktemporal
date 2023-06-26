@@ -118,21 +118,21 @@ function getHeroImage(hero: string) {
   if (heroMapping[hero]) {
     hero = heroMapping[hero] ?? hero;
   }
-  return `/heroes/${hero}.jpg`;
+  return `/heroes/${hero.toLowerCase()}.jpg`;
 }
 
 function getBadgeImage(badge: string) {
   if (badgeMapping[badge]) {
     badge = badgeMapping[badge] ?? badge;
   }
-  return `/badges/${badge}.png`;
+  return `/badges/${badge.toLowerCase()}.png`;
 }
 
 function getPetImage(pet: string) {
   if (petMapping[pet]) {
     pet = petMapping[pet] ?? pet;
   }
-  return `/pets/${pet}.png`;
+  return `/pets/${pet.toLowerCase()}.png`;
 }
 
 const Hero: React.FC<{ hero: string; used: boolean }> = (props) => {
