@@ -1,0 +1,18 @@
+{
+  "title-public": "Progression PVE",
+  "label-kings-tower": "Tour du roi",
+  "label-lightbearer-tower": "Tour de la lumière",
+  "label-mauler-tower": "La citadelle brutale",
+  "label-wilder-tower": "L'arbre-monde",
+  "label-graveborn-tower": "La nécropole abandonnée",
+  "label-celestial-tower": "Sanctuaire céleste",
+  "label-hypogean-tower": "Forteresse infernale",
+  "label-campaign": "Campagne",
+  "label-campaign-helper": "(format : 42-15)",
+  "label-crystal": "Cristal résonant",
+  "label-crystal-max": "Cristal résonant max",
+  "label-crystal-level": "Niveau de cristal",
+  "label-level": "Lvl {{ level }}",
+  "max-crystal-differ": "Le cristal maximal calculé ({{ maxCalculated }}) est différent de celui enregistré.",
+  "max-crystal-update": "Mettre à jour à {{ maxCalculated }}"
+}

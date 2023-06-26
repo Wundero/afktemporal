@@ -1,0 +1,17 @@
+{
+  "simulate": "Simular",
+  "current-tree": "Árbol actual",
+  "max-data-reach": "Alcanzado el máximo en data de stats. Por lo tanto, los valores no son exactos.",
+  "hp": "HP",
+  "hp.pr": "HP%",
+  "atk": "ATK",
+  "atk.pr": "ATK%",
+  "arm": "DEF",
+  "arm.pr": "DEF%",
+  "hit": "PRE",
+  "dodg": "EVASIÓN",
+  "mspd": "VEL",
+  "crit": "CRIT",
+  "lfs": "LL",
+  "main-tree-empty": "Sube la rama principal del árbol anciano hasta 11 para empezar a cambiar los valores de las otras ramas"
+}

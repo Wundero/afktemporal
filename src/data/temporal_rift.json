@@ -1,0 +1,2288 @@
+[
+  {
+    "pos1": "Merlin",
+    "pos2": "Awakened Brutus",
+    "pos3": "Astar",
+    "pos4": "Tamrus",
+    "pos5": "Haelus",
+    "pet": "Bellbellow",
+    "badge": "Boulder Armor"
+  },
+  {
+    "pos1": "Joan of Arc",
+    "pos2": "Awakened Brutus",
+    "pos3": "Merlin",
+    "pos4": "Ezio",
+    "pos5": "Albedo",
+    "pet": "Grassy Orb",
+    "badge": "Boulder Armor"
+  },
+  {
+    "pos1": "Astar",
+    "pos2": "Awakened Brutus",
+    "pos3": "Silas",
+    "pos4": "Frampton",
+    "pos5": "Haelus",
+    "pet": "Slumber Seal",
+    "badge": "Boulder Armor"
+  },
+  {
+    "pos1": "Astar",
+    "pos2": "Awakened Brutus",
+    "pos3": "Silas",
+    "pos4": "Frampton",
+    "pos5": "Haelus",
+    "pet": "Talismane",
+    "badge": "Boulder Armor"
+  },
+  {
+    "pos1": "Awakened Brutus",
+    "pos2": "Merlin",
+    "pos3": "Joan of Arc",
+    "pos4": "Ainz Ooal Gown",
+    "pos5": "Albedo",
+    "pet": "Talismane",
+    "badge": "Cloud of Tempest"
+  },
+  {
+    "pos1": "Awakened Brutus",
+    "pos2": "Merlin",
+    "pos3": "Joan of Arc",
+    "pos4": "Ainz Ooal Gown",
+    "pos5": "Albedo",
+    "pet": "Talismane",
+    "badge": "Boulder Armor"
+  },
+  {
+    "pos1": "Awakened Brutus",
+    "pos2": "Rem",
+    "pos3": "Albedo",
+    "pos4": "Mulan",
+    "pos5": "Joan of Arc",
+    "pet": "Flutterplume Owl",
+    "badge": "Axe of Fury"
+  },
+  {
+    "pos1": "Veithael",
+    "pos2": "Awakened Brutus",
+    "pos3": "Astar",
+    "pos4": "Haelus",
+    "pos5": "Mulan",
+    "pet": "Talismane",
+    "badge": "Dagger of Disaster"
+  },
+  {
+    "pos1": "Awakened Brutus",
+    "pos2": "Albedo",
+    "pos3": "Joan of Arc",
+    "pos4": "Rem",
+    "pos5": "Merlin",
+    "pet": "Slumber Seal",
+    "badge": "Boulder Armor"
+  },
+  {
+    "pos1": "Awakened Brutus",
+    "pos2": "Albedo",
+    "pos3": "Joan of Arc",
+    "pos4": "Rem",
+    "pos5": "Merlin",
+    "pet": "Rock Crown Lizard",
+    "badge": "Boulder Armor"
+  },
+  {
+    "pos1": "Awakened Brutus",
+    "pos2": "Mulan",
+    "pos3": "Haelus",
+    "pos4": "Scarlet",
+    "pos5": "Kren",
+    "pet": "Savage Souffle",
+    "badge": "Axe of Fury"
+  },
+  {
+    "pos1": "Mulan",
+    "pos2": "Awakened Brutus",
+    "pos3": "Albedo",
+    "pos4": "Scarlet",
+    "pos5": "Joan of Arc",
+    "pet": "Blade Ridge",
+    "badge": "Boulder Armor"
+  },
+  {
+    "pos1": "Joan of Arc",
+    "pos2": "Awakened Brutus",
+    "pos3": "Haelus",
+    "pos4": "Mulan",
+    "pos5": "Anasta",
+    "pet": "Winged Lion",
+    "badge": "Boulder Armor"
+  },
+  {
+    "pos1": "Awakened Brutus",
+    "pos2": "Albedo",
+    "pos3": "Joan of Arc",
+    "pos4": "Yennifer",
+    "pos5": "Merlin",
+    "pet": "Slumber Seal",
+    "badge": "Boulder Armor"
+  },
+  {
+    "pos1": "Awakened Brutus",
+    "pos2": "Joan of Arc",
+    "pos3": "Skreg",
+    "pos4": "Frampton",
+    "pos5": "Mulan",
+    "pet": "Flutterplume Owl",
+    "badge": "Boulder Armor"
+  },
+  {
+    "pos1": "Talene",
+    "pos2": "Anasta",
+    "pos3": "Elijah & Lilah",
+    "pos4": "Mortas",
+    "pos5": "Ezizh",
+    "pet": "Rock Crown Lizard",
+    "badge": "Axe of Fury"
+  },
+  {
+    "pos1": "Talene",
+    "pos2": "Anasta",
+    "pos3": "Elijah & Lilah",
+    "pos4": "Mortas",
+    "pos5": "Ezizh",
+    "pet": "Winged Lion",
+    "badge": "Axe of Fury"
+  },
+  {
+    "pos1": "Talene",
+    "pos2": "Anasta",
+    "pos3": "Elijah & Lilah",
+    "pos4": "Mortas",
+    "pos5": "Ezizh",
+    "pet": "Rock Crown Lizard",
+    "badge": "Boulder Armor"
+  },
+  {
+    "pos1": "Talene",
+    "pos2": "Anasta",
+    "pos3": "Elijah & Lilah",
+    "pos4": "Mortas",
+    "pos5": "Ezizh",
+    "pet": "Winged Lion",
+    "badge": "Boulder Armor"
+  },
+  {
+    "pos1": "Alna",
+    "pos2": "Grezhul",
+    "pos3": "Oden",
+    "pos4": "Mortas",
+    "pos5": "Desira",
+    "pet": "Winged Lion",
+    "badge": "Ring of Dominion"
+  },
+  {
+    "pos1": "Anasta",
+    "pos2": "Grezhul",
+    "pos3": "Silas",
+    "pos4": "Oden",
+    "pos5": "Desira",
+    "pet": "Flutterplume Owl",
+    "badge": "Cloud of Tempest"
+  },
+  {
+    "pos1": "Anasta",
+    "pos2": "Grezhul",
+    "pos3": "Silas",
+    "pos4": "Oden",
+    "pos5": "Desira",
+    "pet": "Flutterplume Owl",
+    "badge": "Frosty Trap"
+  },
+  {
+    "pos1": "Grezhul",
+    "pos2": "Anasta",
+    "pos3": "Oden",
+    "pos4": "Silas",
+    "pos5": "Ferael",
+    "pet": "Flutterplume Owl",
+    "badge": "Ring of Dominion"
+  },
+  {
+    "pos1": "Grezhul",
+    "pos2": "Anasta",
+    "pos3": "Oden",
+    "pos4": "Silas",
+    "pos5": "Ferael",
+    "pet": "Flutterplume Owl",
+    "badge": "Meteoric Rise"
+  },
+  {
+    "pos1": "Veithael",
+    "pos2": "Anasta",
+    "pos3": "Haelus",
+    "pos4": "Astar",
+    "pos5": "Eorin",
+    "pet": "Winged Lion",
+    "badge": "Meteoric Rise"
+  },
+  {
+    "pos1": "Mishka",
+    "pos2": "Anasta",
+    "pos3": "Oden",
+    "pos4": "Scarlet",
+    "pos5": "Desira",
+    "pet": "Rock Crown Lizard",
+    "badge": "Sweeping Tide"
+  },
+  {
+    "pos1": "Mishka",
+    "pos2": "Canissa & Ruke",
+    "pos3": "Oden",
+    "pos4": "Scarlet",
+    "pos5": "Nevanthi",
+    "pet": "Flutterplume Owl",
+    "badge": "Sweeping Tide"
+  },
+  {
+    "pos1": "Mishka",
+    "pos2": "Canissa & Ruke",
+    "pos3": "Oden",
+    "pos4": "Scarlet",
+    "pos5": "Nevanthi",
+    "pet": "Rock Crown Lizard",
+    "badge": "Sweeping Tide"
+  },
+  {
+    "pos1": "Mishka",
+    "pos2": "Astar",
+    "pos3": "Nevanthi",
+    "pos4": "Scarlet",
+    "pos5": "Haelus",
+    "pet": "Talismane",
+    "badge": "Frosty Trap"
+  },
+  {
+    "pos1": "Mishka",
+    "pos2": "Astar",
+    "pos3": "Nevanthi",
+    "pos4": "Scarlet",
+    "pos5": "Haelus",
+    "pet": "Blade Ridge",
+    "badge": "Frosty Trap"
+  },
+  {
+    "pos1": "Mishka",
+    "pos2": "Astar",
+    "pos3": "Haelus",
+    "pos4": "Scarlet",
+    "pos5": "Silas",
+    "pet": "Rock Crown Lizard",
+    "badge": "Cloud of Tempest"
+  },
+  {
+    "pos1": "Mishka",
+    "pos2": "Grezhul",
+    "pos3": "Astar",
+    "pos4": "Nevanthi",
+    "pos5": "Scarlet",
+    "pet": "Winged Lion",
+    "badge": "Meteoric Rise"
+  },
+  {
+    "pos1": "Mishka",
+    "pos2": "Grezhul",
+    "pos3": "Astar",
+    "pos4": "Nevanthi",
+    "pos5": "Scarlet",
+    "pet": "Phantasmoth",
+    "badge": "Ring of Dominion"
+  },
+  {
+    "pos1": "Canissa & Ruke",
+    "pos2": "Sonja",
+    "pos3": "Astar",
+    "pos4": "Scarlet",
+    "pos5": "Haelus",
+    "pet": "Rock Crown Lizard",
+    "badge": "Boulder Armor"
+  },
+  {
+    "pos1": "Mishka",
+    "pos2": "Astar",
+    "pos3": "Haelus",
+    "pos4": "Scarlet",
+    "pos5": "Desira",
+    "pet": "Flutterplume Owl",
+    "badge": "Boulder Armor"
+  },
+  {
+    "pos1": "Ezizh",
+    "pos2": "Talene",
+    "pos3": "Elijah & Lilah",
+    "pos4": "Mortas",
+    "pos5": "Nevanthi",
+    "pet": "Rock Crown Lizard",
+    "badge": "Meteoric Rise"
+  },
+  {
+    "pos1": "Skreg",
+    "pos2": "Peggy",
+    "pos3": "Haelus",
+    "pos4": "Scarlet",
+    "pos5": "Nevanthi",
+    "pet": "Savage Souffle",
+    "badge": "Ring of Dominion"
+  },
+  {
+    "pos1": "Skreg",
+    "pos2": "Peggy",
+    "pos3": "Haelus",
+    "pos4": "Scarlet",
+    "pos5": "Nevanthi",
+    "pet": "Slumber Seal",
+    "badge": "Ring of Dominion"
+  },
+  {
+    "pos1": "Grezhul",
+    "pos2": "Mishka",
+    "pos3": "Haelus",
+    "pos4": "Scarlet",
+    "pos5": "Nevanthi",
+    "pet": "Savage Souffle",
+    "badge": "Ring of Dominion"
+  },
+  {
+    "pos1": "Grezhul",
+    "pos2": "Mishka",
+    "pos3": "Haelus",
+    "pos4": "Scarlet",
+    "pos5": "Nevanthi",
+    "pet": "Slumber Seal",
+    "badge": "Ring of Dominion"
+  },
+  {
+    "pos1": "Ezizh",
+    "pos2": "Edwin",
+    "pos3": "Mortas",
+    "pos4": "Merlin",
+    "pos5": "Elijah & Lilah",
+    "pet": "Savage Souffle",
+    "badge": "Ring of Dominion"
+  },
+  {
+    "pos1": "Haelus",
+    "pos2": "Mishka",
+    "pos3": "Astar",
+    "pos4": "Scarlet",
+    "pos5": "Rosaline",
+    "pet": "Rock Crown Lizard",
+    "badge": "Boulder Armor"
+  },
+  {
+    "pos1": "Ezizh",
+    "pos2": "Scarlet",
+    "pos3": "Nevanthi",
+    "pos4": "Rowan",
+    "pos5": "Elijah & Lilah",
+    "pet": "Savage Souffle",
+    "badge": "Meteoric Rise"
+  },
+  {
+    "pos1": "Ezizh",
+    "pos2": "Scarlet",
+    "pos3": "Nevanthi",
+    "pos4": "Rowan",
+    "pos5": "Elijah & Lilah",
+    "pet": "Savage Souffle",
+    "badge": "Cloud of Tempest"
+  },
+  {
+    "pos1": "Mishka",
+    "pos2": "Astar",
+    "pos3": "Silas",
+    "pos4": "Desira",
+    "pos5": "Raku",
+    "pet": "Slumber Seal",
+    "badge": "Meteoric Rise"
+  },
+  {
+    "pos1": "Anasta",
+    "pos2": "Grezhul",
+    "pos3": "Mortas",
+    "pos4": "Yennifer",
+    "pos5": "Haelus",
+    "pet": "Talismane",
+    "badge": "Cloud of Tempest"
+  },
+  {
+    "pos1": "Merlin",
+    "pos2": "Albedo",
+    "pos3": "Joan of Arc",
+    "pos4": "Tamrus",
+    "pos5": "Ainz Ooal Gown",
+    "pet": "Talismane",
+    "badge": "Sweeping Tide"
+  },
+  {
+    "pos1": "Merlin",
+    "pos2": "Albedo",
+    "pos3": "Joan of Arc",
+    "pos4": "Tamrus",
+    "pos5": "Ainz Ooal Gown",
+    "pet": "Blade Ridge",
+    "badge": "Cloud of Tempest"
+  },
+  {
+    "pos1": "Albedo",
+    "pos2": "Canissa & Ruke",
+    "pos3": "Merlin",
+    "pos4": "Yennifer",
+    "pos5": "Mortas",
+    "pet": "Phantasmoth",
+    "badge": "Cloud of Tempest"
+  },
+  {
+    "pos1": "Anasta",
+    "pos2": "Thali",
+    "pos3": "Haelus",
+    "pos4": "Nevanthi",
+    "pos5": "Joan of Arc",
+    "pet": "Winged Lion",
+    "badge": "Axe of Fury"
+  },
+  {
+    "pos1": "Veithael",
+    "pos2": "Anasta",
+    "pos3": "Mulan",
+    "pos4": "Tamrus",
+    "pos5": "Haelus",
+    "pet": "Talismane",
+    "badge": "Dagger of Disaster"
+  },
+  {
+    "pos1": "Joan of Arc",
+    "pos2": "Merlin",
+    "pos3": "Albedo",
+    "pos4": "Rem",
+    "pos5": "Ainz Ooal Gown",
+    "pet": "Talismane",
+    "badge": "Boulder Armor"
+  },
+  {
+    "pos1": "Geralt",
+    "pos2": "Albedo",
+    "pos3": "Rem",
+    "pos4": "Joan of Arc",
+    "pos5": "Merlin",
+    "pet": "Slumber Seal",
+    "badge": "Boulder Armor"
+  },
+  {
+    "pos1": "Ezizh",
+    "pos2": "Talene",
+    "pos3": "Mortas",
+    "pos4": "Merlin",
+    "pos5": "Elijah & Lilah",
+    "pet": "Flutterplume Owl",
+    "badge": "Frosty Trap"
+  },
+  {
+    "pos1": "Awakened Solise",
+    "pos2": "Anasta",
+    "pos3": "Mulan",
+    "pos4": "Ferael",
+    "pos5": "Haelus",
+    "pet": "Talismane",
+    "badge": "Dagger of Disaster"
+  },
+  {
+    "pos1": "Arthur",
+    "pos2": "Albedo",
+    "pos3": "Ainz Ooal Gown",
+    "pos4": "Merlin",
+    "pos5": "Mortas",
+    "pet": "Slumber Seal",
+    "badge": "Sweeping Tide"
+  },
+  {
+    "pos1": "Merlin",
+    "pos2": "Albedo",
+    "pos3": "Rem",
+    "pos4": "Mulan",
+    "pos5": "Emilia",
+    "pet": "Talismane",
+    "badge": "Cloud of Tempest"
+  },
+  {
+    "pos1": "Mulan",
+    "pos2": "Joan of Arc",
+    "pos3": "Mortas",
+    "pos4": "Albedo",
+    "pos5": "Merlin",
+    "pet": "Talismane",
+    "badge": "Cloud of Tempest"
+  },
+  {
+    "pos1": "Ezio",
+    "pos2": "Canissa & Ruke",
+    "pos3": "Albedo",
+    "pos4": "Mulan",
+    "pos5": "Joan of Arc",
+    "pet": "Slumber Seal",
+    "badge": "Dagger of Disaster"
+  },
+  {
+    "pos1": "Joan of Arc",
+    "pos2": "Albedo",
+    "pos3": "Merlin",
+    "pos4": "Yennifer",
+    "pos5": "Mulan",
+    "pet": "Slumber Seal",
+    "badge": "Ring of Dominion"
+  },
+  {
+    "pos1": "Merlin",
+    "pos2": "Albedo",
+    "pos3": "Mortas",
+    "pos4": "Yennifer",
+    "pos5": "Ainz Ooal Gown",
+    "pet": "Rock Crown Lizard",
+    "badge": "Axe of Fury"
+  },
+  {
+    "pos1": "Ezizh",
+    "pos2": "Talene",
+    "pos3": "Elijah & Lilah",
+    "pos4": "Merlin",
+    "pos5": "Mortas",
+    "pet": "Savage Souffle",
+    "badge": "Meteoric Rise"
+  },
+  {
+    "pos1": "Ezizh",
+    "pos2": "Talene",
+    "pos3": "Elijah & Lilah",
+    "pos4": "Merlin",
+    "pos5": "Mortas",
+    "pet": "Flutterplume Owl",
+    "badge": "Dagger of Disaster"
+  },
+  {
+    "pos1": "Ezizh",
+    "pos2": "Talene",
+    "pos3": "Elijah & Lilah",
+    "pos4": "Merlin",
+    "pos5": "Mortas",
+    "pet": "Slumber Seal",
+    "badge": "Boulder Armor"
+  },
+  {
+    "pos1": "Palmer",
+    "pos2": "Albedo",
+    "pos3": "Joan of Arc",
+    "pos4": "Mulan",
+    "pos5": "Ainz Ooal Gown",
+    "pet": "Slumber Seal",
+    "badge": "Boulder Armor"
+  },
+  {
+    "pos1": "Albedo",
+    "pos2": "Joan of Arc",
+    "pos3": "Merlin",
+    "pos4": "Ainz Ooal Gown",
+    "pos5": "Mulan",
+    "pet": "Slumber Seal",
+    "badge": "Boulder Armor"
+  },
+  {
+    "pos1": "Albedo",
+    "pos2": "Joan of Arc",
+    "pos3": "Mulan",
+    "pos4": "Yennifer",
+    "pos5": "Haelus",
+    "pet": "Talismane",
+    "badge": "Dagger of Disaster"
+  },
+  {
+    "pos1": "Mishka",
+    "pos2": "Yennifer",
+    "pos3": "Silas",
+    "pos4": "Desira",
+    "pos5": "Raku",
+    "pet": "Slumber Seal",
+    "badge": "Meteoric Rise"
+  },
+  {
+    "pos1": "Albedo",
+    "pos2": "Joan of Arc",
+    "pos3": "Merlin",
+    "pos4": "Yennifer",
+    "pos5": "Ezio",
+    "pet": "Slumber Seal",
+    "badge": "Cloud of Tempest"
+  },
+  {
+    "pos1": "Merlin",
+    "pos2": "Talene",
+    "pos3": "Mortas",
+    "pos4": "Nevanthi",
+    "pos5": "Ezizh",
+    "pet": "Slumber Seal",
+    "badge": "Meteoric Rise"
+  },
+  {
+    "pos1": "Sonja",
+    "pos2": "Tamrus",
+    "pos3": "Oden",
+    "pos4": "Mulan",
+    "pos5": "Khazard",
+    "pet": "Flutterplume Owl",
+    "badge": "Frosty Trap"
+  },
+  {
+    "pos1": "Sonja",
+    "pos2": "Tamrus",
+    "pos3": "Oden",
+    "pos4": "Mulan",
+    "pos5": "Khazard",
+    "pet": "Talismane",
+    "badge": "Frosty Trap"
+  },
+  {
+    "pos1": "Albedo",
+    "pos2": "Joan of Arc",
+    "pos3": "Rem",
+    "pos4": "Merlin",
+    "pos5": "Mulan",
+    "pet": "Slumber Seal",
+    "badge": "Cloud of Tempest"
+  },
+  {
+    "pos1": "Merlin",
+    "pos2": "Albedo",
+    "pos3": "Joan of Arc",
+    "pos4": "Emilia",
+    "pos5": "Rem",
+    "pet": "Talismane",
+    "badge": "Cloud of Tempest"
+  },
+  {
+    "pos1": "Merlin",
+    "pos2": "Albedo",
+    "pos3": "Joan of Arc",
+    "pos4": "Emilia",
+    "pos5": "Rem",
+    "pet": "Winged Lion",
+    "badge": "Axe of Fury"
+  },
+  {
+    "pos1": "Talene",
+    "pos2": "Anasta",
+    "pos3": "Rem",
+    "pos4": "Elijah & Lilah",
+    "pos5": "Ezizh",
+    "pet": "Winged Lion",
+    "badge": "Axe of Fury"
+  },
+  {
+    "pos1": "Grezhul",
+    "pos2": "Alna",
+    "pos3": "Emilia",
+    "pos4": "Silas",
+    "pos5": "Oden",
+    "pet": "Slumber Seal",
+    "badge": "Sweeping Tide"
+  },
+  {
+    "pos1": "Alna",
+    "pos2": "Awakened Belinda",
+    "pos3": "Palmer",
+    "pos4": "Rowan",
+    "pos5": "Raine",
+    "pet": "Winged Lion",
+    "badge": "Cloud of Tempest"
+  },
+  {
+    "pos1": "Alna",
+    "pos2": "Awakened Belinda",
+    "pos3": "Palmer",
+    "pos4": "Rowan",
+    "pos5": "Raine",
+    "pet": "Winged Lion",
+    "badge": "Axe of Fury"
+  },
+  {
+    "pos1": "Alna",
+    "pos2": "Awakened Belinda",
+    "pos3": "Palmer",
+    "pos4": "Rowan",
+    "pos5": "Raine",
+    "pet": "Winged Lion",
+    "badge": "Meteoric Rise"
+  },
+  {
+    "pos1": "Alna",
+    "pos2": "Awakened Belinda",
+    "pos3": "Rosaline",
+    "pos4": "Palmer",
+    "pos5": "Rowan",
+    "pet": "Rock Crown Lizard",
+    "badge": "Axe of Fury"
+  },
+  {
+    "pos1": "Alna",
+    "pos2": "Awakened Belinda",
+    "pos3": "Rosaline",
+    "pos4": "Palmer",
+    "pos5": "Rowan",
+    "pet": "Blade Ridge",
+    "badge": "Boulder Armor"
+  },
+  {
+    "pos1": "Alna",
+    "pos2": "Awakened Belinda",
+    "pos3": "Rosaline",
+    "pos4": "Palmer",
+    "pos5": "Rowan",
+    "pet": "Winged Lion",
+    "badge": "Meteoric Rise"
+  },
+  {
+    "pos1": "Alna",
+    "pos2": "Awakened Belinda",
+    "pos3": "Rosaline",
+    "pos4": "Palmer",
+    "pos5": "Rowan",
+    "pet": "Rock Crown Lizard",
+    "badge": "Cloud of Tempest"
+  },
+  {
+    "pos1": "Alna",
+    "pos2": "Awakened Belinda",
+    "pos3": "Rosaline",
+    "pos4": "Palmer",
+    "pos5": "Rowan",
+    "pet": "Rock Crown Lizard",
+    "badge": "Ring of Dominion"
+  },
+  {
+    "pos1": "Rowan",
+    "pos2": "Ezizh",
+    "pos3": "Awakened Belinda",
+    "pos4": "Palmer",
+    "pos5": "Raine",
+    "pet": "Rock Crown Lizard",
+    "badge": "Axe of Fury"
+  },
+  {
+    "pos1": "Haelus",
+    "pos2": "Awakened Belinda",
+    "pos3": "Rosaline",
+    "pos4": "Rowan",
+    "pos5": "Palmer",
+    "pet": "Winged Lion",
+    "badge": "Cloud of Tempest"
+  },
+  {
+    "pos1": "Haelus",
+    "pos2": "Awakened Belinda",
+    "pos3": "Rosaline",
+    "pos4": "Rowan",
+    "pos5": "Palmer",
+    "pet": "Winged Lion",
+    "badge": "Frosty Trap"
+  },
+  {
+    "pos1": "Haelus",
+    "pos2": "Awakened Belinda",
+    "pos3": "Rosaline",
+    "pos4": "Rowan",
+    "pos5": "Palmer",
+    "pet": "Rock Crown Lizard",
+    "badge": "Cloud of Tempest"
+  },
+  {
+    "pos1": "Haelus",
+    "pos2": "Awakened Belinda",
+    "pos3": "Rosaline",
+    "pos4": "Rowan",
+    "pos5": "Palmer",
+    "pet": "Rock Crown Lizard",
+    "badge": "Frosty Trap"
+  },
+  {
+    "pos1": "Alna",
+    "pos2": "Awakened Belinda",
+    "pos3": "Rowan",
+    "pos4": "Palmer",
+    "pos5": "Ezizh",
+    "pet": "Rock Crown Lizard",
+    "badge": "Meteoric Rise"
+  },
+  {
+    "pos1": "Alna",
+    "pos2": "Awakened Belinda",
+    "pos3": "Sonja",
+    "pos4": "Palmer",
+    "pos5": "Rosaline",
+    "pet": "Rock Crown Lizard",
+    "badge": "Meteoric Rise"
+  },
+  {
+    "pos1": "Alna",
+    "pos2": "Awakened Belinda",
+    "pos3": "Sonja",
+    "pos4": "Palmer",
+    "pos5": "Rosaline",
+    "pet": "Rock Crown Lizard",
+    "badge": "Axe of Fury"
+  },
+  {
+    "pos1": "Alna",
+    "pos2": "Awakened Belinda",
+    "pos3": "Rosaline",
+    "pos4": "Palmer",
+    "pos5": "Raine",
+    "pet": "Rock Crown Lizard",
+    "badge": "Meteoric Rise"
+  },
+  {
+    "pos1": "Alna",
+    "pos2": "Awakened Belinda",
+    "pos3": "Rosaline",
+    "pos4": "Palmer",
+    "pos5": "Raine",
+    "pet": "Winged Lion",
+    "badge": "Meteoric Rise"
+  },
+  {
+    "pos1": "Alna",
+    "pos2": "Awakened Belinda",
+    "pos3": "Haelus",
+    "pos4": "Raine",
+    "pos5": "Rowan",
+    "pet": "Winged Lion",
+    "badge": "Cloud of Tempest"
+  },
+  {
+    "pos1": "Awakened Belinda",
+    "pos2": "Alna",
+    "pos3": "Rowan",
+    "pos4": "Raine",
+    "pos5": "Elijah & Lilah",
+    "pet": "Blade Ridge",
+    "badge": "Meteoric Rise"
+  },
+  {
+    "pos1": "Alna",
+    "pos2": "Mulan",
+    "pos3": "Awakened Belinda",
+    "pos4": "Rowan",
+    "pos5": "Rosaline",
+    "pet": "Savage Souffle",
+    "badge": "Sweeping Tide"
+  },
+  {
+    "pos1": "Awakened Belinda",
+    "pos2": "Alna",
+    "pos3": "Raine",
+    "pos4": "Rowan",
+    "pos5": "Rosaline",
+    "pet": "Rock Crown Lizard",
+    "badge": "Axe of Fury"
+  },
+  {
+    "pos1": "Talene",
+    "pos2": "Anasta",
+    "pos3": "Elijah & Lilah",
+    "pos4": "Awakened Solise",
+    "pos5": "Ezizh",
+    "pet": "Rock Crown Lizard",
+    "badge": "Axe of Fury"
+  },
+  {
+    "pos1": "Mishka",
+    "pos2": "Veithael",
+    "pos3": "Awakened Solise",
+    "pos4": "Scarlet",
+    "pos5": "Nevanthi",
+    "pet": "Winged Lion",
+    "badge": "Meteoric Rise"
+  },
+  {
+    "pos1": "Awakened Solise",
+    "pos2": "Mishka",
+    "pos3": "Astar",
+    "pos4": "Scarlet",
+    "pos5": "Haelus",
+    "pet": "Bellbellow",
+    "badge": "Frosty Trap"
+  },
+  {
+    "pos1": "Awakened Solise",
+    "pos2": "Mishka",
+    "pos3": "Astar",
+    "pos4": "Scarlet",
+    "pos5": "Haelus",
+    "pet": "Tufty Ears",
+    "badge": "Boulder Armor"
+  },
+  {
+    "pos1": "Mishka",
+    "pos2": "Awakened Solise",
+    "pos3": "Astar",
+    "pos4": "Scarlet",
+    "pos5": "Yennifer",
+    "pet": "Rock Crown Lizard",
+    "badge": "Meteoric Rise"
+  },
+  {
+    "pos1": "Mishka",
+    "pos2": "Awakened Solise",
+    "pos3": "Lorsan",
+    "pos4": "Scarlet",
+    "pos5": "Astar",
+    "pet": "Talismane",
+    "badge": "Ring of Dominion"
+  },
+  {
+    "pos1": "Canissa & Ruke",
+    "pos2": "Awakened Solise",
+    "pos3": "Mishka",
+    "pos4": "Scarlet",
+    "pos5": "Nevanthi",
+    "pet": "Slumber Seal",
+    "badge": "Meteoric Rise"
+  },
+  {
+    "pos1": "Canissa & Ruke",
+    "pos2": "Astar",
+    "pos3": "Awakened Solise",
+    "pos4": "Nevanthi",
+    "pos5": "Scarlet",
+    "pet": "Winged Lion",
+    "badge": "Axe of Fury"
+  },
+  {
+    "pos1": "Mishka",
+    "pos2": "Awakened Solise",
+    "pos3": "Raku",
+    "pos4": "Nevanthi",
+    "pos5": "Tamrus",
+    "pet": "Winged Lion",
+    "badge": "Meteoric Rise"
+  },
+  {
+    "pos1": "Rowan",
+    "pos2": "Mishka",
+    "pos3": "Awakened Solise",
+    "pos4": "Scarlet",
+    "pos5": "Nevanthi",
+    "pet": "Winged Lion",
+    "badge": "Axe of Fury"
+  },
+  {
+    "pos1": "Astar",
+    "pos2": "Veithael",
+    "pos3": "Awakened Solise",
+    "pos4": "Tarnos",
+    "pos5": "Nevanthi",
+    "pet": "Phantasmoth",
+    "badge": "Axe of Fury"
+  },
+  {
+    "pos1": "Scarlet",
+    "pos2": "Canissa & Ruke",
+    "pos3": "Nevanthi",
+    "pos4": "Astar",
+    "pos5": "Haelus",
+    "pet": "Phantasmoth",
+    "badge": "Cloud of Tempest"
+  },
+  {
+    "pos1": "Oden",
+    "pos2": "Awakened Solise",
+    "pos3": "Elijah & Lilah",
+    "pos4": "Yennifer",
+    "pos5": "Astar",
+    "pet": "Flutterplume Owl",
+    "badge": "Ring of Dominion"
+  },
+  {
+    "pos1": "Tamrus",
+    "pos2": "Astar",
+    "pos3": "Nevanthi",
+    "pos4": "Scarlet",
+    "pos5": "Awakened Solise",
+    "pet": "Winged Lion",
+    "badge": "Meteoric Rise"
+  },
+  {
+    "pos1": "Awakened Solise",
+    "pos2": "Mishka",
+    "pos3": "Nevanthi",
+    "pos4": "Scarlet",
+    "pos5": "Oden",
+    "pet": "Flutterplume Owl",
+    "badge": "Axe of Fury"
+  },
+  {
+    "pos1": "Awakened Solise",
+    "pos2": "Mishka",
+    "pos3": "Nevanthi",
+    "pos4": "Scarlet",
+    "pos5": "Oden",
+    "pet": "Flutterplume Owl",
+    "badge": "Meteoric Rise"
+  },
+  {
+    "pos1": "Awakened Solise",
+    "pos2": "Mishka",
+    "pos3": "Nevanthi",
+    "pos4": "Scarlet",
+    "pos5": "Haelus",
+    "pet": "Talismane",
+    "badge": "Ring of Dominion"
+  },
+  {
+    "pos1": "Mishka",
+    "pos2": "Astar",
+    "pos3": "Awakened Solise",
+    "pos4": "Nevanthi",
+    "pos5": "Scarlet",
+    "pet": "Rock Crown Lizard",
+    "badge": "Frosty Trap"
+  },
+  {
+    "pos1": "Mishka",
+    "pos2": "Astar",
+    "pos3": "Awakened Solise",
+    "pos4": "Nevanthi",
+    "pos5": "Scarlet",
+    "pet": "Phantasmoth",
+    "badge": "Ring of Dominion"
+  },
+  {
+    "pos1": "Mishka",
+    "pos2": "Astar",
+    "pos3": "Awakened Solise",
+    "pos4": "Nevanthi",
+    "pos5": "Scarlet",
+    "pet": "Talismane",
+    "badge": "Boulder Armor"
+  },
+  {
+    "pos1": "Awakened Solise",
+    "pos2": "Grezhul",
+    "pos3": "Desira",
+    "pos4": "Leonardo",
+    "pos5": "Oden",
+    "pet": "Winged Lion",
+    "badge": "Meteoric Rise"
+  },
+  {
+    "pos1": "Grezhul",
+    "pos2": "Awakened Solise",
+    "pos3": "Silas",
+    "pos4": "Oden",
+    "pos5": "Tamrus",
+    "pet": "Talismane",
+    "badge": "Frosty Trap"
+  },
+  {
+    "pos1": "Veithael",
+    "pos2": "Canissa & Ruke",
+    "pos3": "Oden",
+    "pos4": "Awakened Solise",
+    "pos5": "Astar",
+    "pet": "Flutterplume Owl",
+    "badge": "Cloud of Tempest"
+  },
+  {
+    "pos1": "Veithael",
+    "pos2": "Canissa & Ruke",
+    "pos3": "Oden",
+    "pos4": "Awakened Solise",
+    "pos5": "Astar",
+    "pet": "Flutterplume Owl",
+    "badge": "Sweeping Tide"
+  },
+  {
+    "pos1": "Veithael",
+    "pos2": "Canissa & Ruke",
+    "pos3": "Oden",
+    "pos4": "Awakened Solise",
+    "pos5": "Astar",
+    "pet": "Flutterplume Owl",
+    "badge": "Meteoric Rise"
+  },
+  {
+    "pos1": "Awakened Solise",
+    "pos2": "Anasta",
+    "pos3": "Nevanthi",
+    "pos4": "Scarlet",
+    "pos5": "Astar",
+    "pet": "Savage Souffle",
+    "badge": "Frosty Trap"
+  },
+  {
+    "pos1": "Astar",
+    "pos2": "Mishka",
+    "pos3": "Tamrus",
+    "pos4": "Awakened Solise",
+    "pos5": "Nevanthi",
+    "pet": "Winged Lion",
+    "badge": "Ring of Dominion"
+  },
+  {
+    "pos1": "Astar",
+    "pos2": "Mishka",
+    "pos3": "Eorin",
+    "pos4": "Awakened Solise",
+    "pos5": "Nevanthi",
+    "pet": "Winged Lion",
+    "badge": "Ring of Dominion"
+  },
+  {
+    "pos1": "Veithael",
+    "pos2": "Tamrus",
+    "pos3": "Astar",
+    "pos4": "Scarlet",
+    "pos5": "Awakened Solise",
+    "pet": "Phantasmoth",
+    "badge": "Sweeping Tide"
+  },
+  {
+    "pos1": "Albedo",
+    "pos2": "Mulan",
+    "pos3": "Awakened Solise",
+    "pos4": "Merlin",
+    "pos5": "Joan of Arc",
+    "pet": "Slumber Seal",
+    "badge": "Boulder Armor"
+  },
+  {
+    "pos1": "Awakened Solise",
+    "pos2": "Grezhul",
+    "pos3": "Mortas",
+    "pos4": "Yennifer",
+    "pos5": "Oden",
+    "pet": "Winged Lion",
+    "badge": "Meteoric Rise"
+  },
+  {
+    "pos1": "Awakened Brutus",
+    "pos2": "Mishka",
+    "pos3": "Nevanthi",
+    "pos4": "Scarlet",
+    "pos5": "Haelus",
+    "pet": "Rock Crown Lizard",
+    "badge": "Axe of Fury"
+  },
+  {
+    "pos1": "Merlin",
+    "pos2": "Awakened Brutus",
+    "pos3": "Astar",
+    "pos4": "Skriath",
+    "pos5": "Haelus",
+    "pet": "Talismane",
+    "badge": "Cloud of Tempest"
+  },
+  {
+    "pos1": "Skreg",
+    "pos2": "Awakened Brutus",
+    "pos3": "Tamrus",
+    "pos4": "Astar",
+    "pos5": "Anasta",
+    "pet": "Rock Crown Lizard",
+    "badge": "Boulder Armor"
+  },
+  {
+    "pos1": "Veithael",
+    "pos2": "Awakened Brutus",
+    "pos3": "Canissa & Ruke",
+    "pos4": "Mulan",
+    "pos5": "Joan of Arc",
+    "pet": "Slumber Seal",
+    "badge": "Boulder Armor"
+  },
+  {
+    "pos1": "Albedo",
+    "pos2": "Awakened Brutus",
+    "pos3": "Ainz Ooal Gown",
+    "pos4": "Joan of Arc",
+    "pos5": "Mulan",
+    "pet": "Slumber Seal",
+    "badge": "Boulder Armor"
+  },
+  {
+    "pos1": "Albedo",
+    "pos2": "Awakened Brutus",
+    "pos3": "Joan of Arc",
+    "pos4": "Merlin",
+    "pos5": "Mulan",
+    "pet": "Talismane",
+    "badge": "Cloud of Tempest"
+  },
+  {
+    "pos1": "Albedo",
+    "pos2": "Awakened Brutus",
+    "pos3": "Joan of Arc",
+    "pos4": "Merlin",
+    "pos5": "Mulan",
+    "pet": "Talismane",
+    "badge": "Boulder Armor"
+  },
+  {
+    "pos1": "Awakened Brutus",
+    "pos2": "Albedo",
+    "pos3": "Joan of Arc",
+    "pos4": "Mulan",
+    "pos5": "Anasta",
+    "pet": "Slumber Seal",
+    "badge": "Boulder Armor"
+  },
+  {
+    "pos1": "Awakened Brutus",
+    "pos2": "Albedo",
+    "pos3": "Joan of Arc",
+    "pos4": "Mulan",
+    "pos5": "Anasta",
+    "pet": "Slumber Seal",
+    "badge": "Frosty Trap"
+  },
+  {
+    "pos1": "Awakened Brutus",
+    "pos2": "Albedo",
+    "pos3": "Joan of Arc",
+    "pos4": "Mulan",
+    "pos5": "Anasta",
+    "pet": "Slumber Seal",
+    "badge": "Cloud of Tempest"
+  },
+  {
+    "pos1": "Awakened Brutus",
+    "pos2": "Albedo",
+    "pos3": "Joan of Arc",
+    "pos4": "Mulan",
+    "pos5": "Anasta",
+    "pet": "Slumber Seal",
+    "badge": "Meteoric Rise"
+  },
+  {
+    "pos1": "Awakened Brutus",
+    "pos2": "Albedo",
+    "pos3": "Joan of Arc",
+    "pos4": "Mulan",
+    "pos5": "Anasta",
+    "pet": "Winged Lion",
+    "badge": "Boulder Armor"
+  },
+  {
+    "pos1": "Awakened Brutus",
+    "pos2": "Albedo",
+    "pos3": "Joan of Arc",
+    "pos4": "Mulan",
+    "pos5": "Anasta",
+    "pet": "Winged Lion",
+    "badge": "Frosty Trap"
+  },
+  {
+    "pos1": "Awakened Brutus",
+    "pos2": "Albedo",
+    "pos3": "Joan of Arc",
+    "pos4": "Mulan",
+    "pos5": "Anasta",
+    "pet": "Winged Lion",
+    "badge": "Cloud of Tempest"
+  },
+  {
+    "pos1": "Awakened Brutus",
+    "pos2": "Albedo",
+    "pos3": "Joan of Arc",
+    "pos4": "Mulan",
+    "pos5": "Anasta",
+    "pet": "Winged Lion",
+    "badge": "Meteoric Rise"
+  },
+  {
+    "pos1": "Awakened Brutus",
+    "pos2": "Albedo",
+    "pos3": "Joan of Arc",
+    "pos4": "Emilia",
+    "pos5": "Anasta",
+    "pet": "Slumber Seal",
+    "badge": "Boulder Armor"
+  },
+  {
+    "pos1": "Awakened Brutus",
+    "pos2": "Albedo",
+    "pos3": "Joan of Arc",
+    "pos4": "Emilia",
+    "pos5": "Anasta",
+    "pet": "Slumber Seal",
+    "badge": "Frosty Trap"
+  },
+  {
+    "pos1": "Awakened Brutus",
+    "pos2": "Albedo",
+    "pos3": "Joan of Arc",
+    "pos4": "Emilia",
+    "pos5": "Anasta",
+    "pet": "Slumber Seal",
+    "badge": "Cloud of Tempest"
+  },
+  {
+    "pos1": "Awakened Brutus",
+    "pos2": "Albedo",
+    "pos3": "Joan of Arc",
+    "pos4": "Emilia",
+    "pos5": "Anasta",
+    "pet": "Slumber Seal",
+    "badge": "Meteoric Rise"
+  },
+  {
+    "pos1": "Awakened Brutus",
+    "pos2": "Albedo",
+    "pos3": "Joan of Arc",
+    "pos4": "Ezio",
+    "pos5": "Anasta",
+    "pet": "Slumber Seal",
+    "badge": "Boulder Armor"
+  },
+  {
+    "pos1": "Awakened Brutus",
+    "pos2": "Albedo",
+    "pos3": "Joan of Arc",
+    "pos4": "Ezio",
+    "pos5": "Anasta",
+    "pet": "Slumber Seal",
+    "badge": "Frosty Trap"
+  },
+  {
+    "pos1": "Awakened Brutus",
+    "pos2": "Albedo",
+    "pos3": "Joan of Arc",
+    "pos4": "Ezio",
+    "pos5": "Anasta",
+    "pet": "Slumber Seal",
+    "badge": "Cloud of Tempest"
+  },
+  {
+    "pos1": "Awakened Brutus",
+    "pos2": "Albedo",
+    "pos3": "Joan of Arc",
+    "pos4": "Ezio",
+    "pos5": "Anasta",
+    "pet": "Slumber Seal",
+    "badge": "Meteoric Rise"
+  },
+  {
+    "pos1": "Merlin",
+    "pos2": "Awakened Brutus",
+    "pos3": "Astar",
+    "pos4": "Kren",
+    "pos5": "Joan of Arc",
+    "pet": "Savage Souffle",
+    "badge": "Cloud of Tempest"
+  },
+  {
+    "pos1": "Merlin",
+    "pos2": "Awakened Brutus",
+    "pos3": "Joan of Arc",
+    "pos4": "Albedo",
+    "pos5": "Anasta",
+    "pet": "Slumber Seal",
+    "badge": "Boulder Armor"
+  },
+  {
+    "pos1": "Merlin",
+    "pos2": "Awakened Brutus",
+    "pos3": "Albedo",
+    "pos4": "Mulan",
+    "pos5": "Rem",
+    "pet": "Talismane",
+    "badge": "Cloud of Tempest"
+  },
+  {
+    "pos1": "Merlin",
+    "pos2": "Awakened Brutus",
+    "pos3": "Albedo",
+    "pos4": "Joan of Arc",
+    "pos5": "Oden",
+    "pet": "Flutterplume Owl",
+    "badge": "Ring of Dominion"
+  },
+  {
+    "pos1": "Anasta",
+    "pos2": "Awakened Brutus",
+    "pos3": "Astar",
+    "pos4": "Frampton",
+    "pos5": "Mortas",
+    "pet": "Slumber Seal",
+    "badge": "Boulder Armor"
+  },
+  {
+    "pos1": "Albedo",
+    "pos2": "Awakened Brutus",
+    "pos3": "Yennifer",
+    "pos4": "Joan of Arc",
+    "pos5": "Mulan",
+    "pet": "Flutterplume Owl",
+    "badge": "Ring of Dominion"
+  },
+  {
+    "pos1": "Awakened Brutus",
+    "pos2": "Grezhul",
+    "pos3": "Mulan",
+    "pos4": "Silas",
+    "pos5": "Desira",
+    "pet": "Flutterplume Owl",
+    "badge": "Cloud of Tempest"
+  },
+  {
+    "pos1": "Albedo",
+    "pos2": "Awakened Talene",
+    "pos3": "Rem",
+    "pos4": "Mulan",
+    "pos5": "Joan of Arc",
+    "pet": "Blade Ridge",
+    "badge": "Dagger of Disaster"
+  },
+  {
+    "pos1": "Awakened Talene",
+    "pos2": "Arthur",
+    "pos3": "Haelus",
+    "pos4": "Scarlet",
+    "pos5": "Nevanthi",
+    "pet": "Savage Souffle",
+    "badge": "Ring of Dominion"
+  },
+  {
+    "pos1": "Awakened Talene",
+    "pos2": "Arthur",
+    "pos3": "Haelus",
+    "pos4": "Scarlet",
+    "pos5": "Nevanthi",
+    "pet": "Slumber Seal",
+    "badge": "Ring of Dominion"
+  },
+  {
+    "pos1": "Awakened Brutus [sp]",
+    "pos2": "Awakened Athalia",
+    "pos3": "Zolrath",
+    "pos4": "Desira",
+    "pos5": "Lyca",
+    "pet": "Flutterplume Owl",
+    "badge": "Axe of Fury"
+  },
+  {
+    "pos1": "Maetria [sp]",
+    "pos2": "Canissa & Ruke",
+    "pos3": "Nevanthi",
+    "pos4": "Awakened Solise",
+    "pos5": "Tarnos",
+    "pet": "Slumber Seal",
+    "badge": "Dagger of Disaster"
+  },
+  {
+    "pos1": "Awakened Baden",
+    "pos2": "Canissa & Ruke",
+    "pos3": "Maetria[sp]",
+    "pos4": "Nevanthi",
+    "pos5": "Ezizh",
+    "pet": "Flutterplume Owl",
+    "badge": "Cloud of Tempest"
+  },
+  {
+    "pos1": "Veithael",
+    "pos2": "Awakened Thane[sp]",
+    "pos3": "Silas",
+    "pos4": "Awakened Solise",
+    "pos5": "Haelus",
+    "pet": "Talismane",
+    "badge": "Dagger of Disaster"
+  },
+  {
+    "pos1": "Awakened Thane[sp]",
+    "pos2": "Anasta",
+    "pos3": "Veithael",
+    "pos4": "Tamrus",
+    "pos5": "Awakened Solise",
+    "pet": "Winged Lion",
+    "badge": "Axe of Fury"
+  },
+  {
+    "pos1": "Awakened Baden[sp]",
+    "pos2": "Tarnos",
+    "pos3": "Awakened Solise",
+    "pos4": "Nevanthi",
+    "pos5": "Ezizh",
+    "pet": "Flutterplume Owl",
+    "badge": "Ring of Dominion"
+  },
+  {
+    "pos1": "Canissa & Ruke",
+    "pos2": "Maetria[sp]",
+    "pos3": "Astar",
+    "pos4": "Awakened Solise",
+    "pos5": "Nevanthi",
+    "pet": "Slumber Seal",
+    "badge": "Dagger of Disaster"
+  },
+  {
+    "pos1": "Merlin",
+    "pos2": "Awakened Athalia",
+    "pos3": "Ainz Ooal Gown",
+    "pos4": "Albedo",
+    "pos5": "Joan of Arc",
+    "pet": "Winged Lion",
+    "badge": "Ring of Dominion"
+  },
+  {
+    "pos1": "Geralt",
+    "pos2": "Albedo",
+    "pos3": "Rem",
+    "pos4": "Merlin",
+    "pos5": "Awakened Athalia",
+    "pet": "Talismane",
+    "badge": "Ring of Dominion"
+  },
+  {
+    "pos1": "Awakened Athalia",
+    "pos2": "Ezio",
+    "pos3": "Mulan",
+    "pos4": "Silas",
+    "pos5": "Joan of Arc",
+    "pet": "Talismane",
+    "badge": "Cloud of Tempest"
+  },
+  {
+    "pos1": "Awakened Athalia",
+    "pos2": "Veithael",
+    "pos3": "Silas",
+    "pos4": "Tamrus",
+    "pos5": "Sonja",
+    "pet": "Flutterplume Owl",
+    "badge": "Axe of Fury"
+  },
+  {
+    "pos1": "Ezizh",
+    "pos2": "Awakened Athalia",
+    "pos3": "Mortas",
+    "pos4": "Merlin",
+    "pos5": "Elijah & Lilah",
+    "pet": "Talismane",
+    "badge": "Axe of Fury"
+  },
+  {
+    "pos1": "Skreg",
+    "pos2": "Talene",
+    "pos3": "Tamrus",
+    "pos4": "Mulan",
+    "pos5": "Awakened Athalia",
+    "pet": "Talismane",
+    "badge": "Axe of Fury"
+  },
+  {
+    "pos1": "Emilia",
+    "pos2": "Awakened Athalia",
+    "pos3": "Desira",
+    "pos4": "Leonardo",
+    "pos5": "Khazard",
+    "pet": "Flutterplume Owl",
+    "badge": "Axe of Fury"
+  },
+  {
+    "pos1": "Anasta",
+    "pos2": "Veithael",
+    "pos3": "Awakened Athalia",
+    "pos4": "Haelus",
+    "pos5": "Astar",
+    "pet": "Talismane",
+    "badge": "Dagger of Disaster"
+  },
+  {
+    "pos1": "Albedo",
+    "pos2": "Merlin",
+    "pos3": "Ainz Ooal Gown",
+    "pos4": "Maetria",
+    "pos5": "Joan of Arc",
+    "pet": "Blade Ridge",
+    "badge": "Dagger of Disaster"
+  },
+  {
+    "pos1": "Maetria",
+    "pos2": "Canissa & Ruke",
+    "pos3": "Oden",
+    "pos4": "Silas",
+    "pos5": "Desira",
+    "pet": "Flutterplume Owl",
+    "badge": "Frosty Trap"
+  },
+  {
+    "pos1": "Canissa & Ruke",
+    "pos2": "Maetria",
+    "pos3": "Olgath",
+    "pos4": "Palmer",
+    "pos5": "Ezizh",
+    "pet": "Flutterplume Owl",
+    "badge": "Sweeping Tide"
+  },
+  {
+    "pos1": "Maetria",
+    "pos2": "Albedo",
+    "pos3": "Joan of Arc",
+    "pos4": "Mulan",
+    "pos5": "Anasta",
+    "pet": "Slumber Seal",
+    "badge": "Boulder Armor"
+  },
+  {
+    "pos1": "Maetria",
+    "pos2": "Albedo",
+    "pos3": "Joan of Arc",
+    "pos4": "Mulan",
+    "pos5": "Anasta",
+    "pet": "Slumber Seal",
+    "badge": "Frosty Trap"
+  },
+  {
+    "pos1": "Maetria",
+    "pos2": "Albedo",
+    "pos3": "Joan of Arc",
+    "pos4": "Mulan",
+    "pos5": "Anasta",
+    "pet": "Slumber Seal",
+    "badge": "Meteoric Rise"
+  },
+  {
+    "pos1": "Maetria",
+    "pos2": "Albedo",
+    "pos3": "Joan of Arc",
+    "pos4": "Mulan",
+    "pos5": "Anasta",
+    "pet": "Slumber Seal",
+    "badge": "Cloud of Tempest"
+  },
+  {
+    "pos1": "Maetria",
+    "pos2": "Albedo",
+    "pos3": "Joan of Arc",
+    "pos4": "Emilia",
+    "pos5": "Anasta",
+    "pet": "Slumber Seal",
+    "badge": "Boulder Armor"
+  },
+  {
+    "pos1": "Maetria",
+    "pos2": "Albedo",
+    "pos3": "Joan of Arc",
+    "pos4": "Emilia",
+    "pos5": "Anasta",
+    "pet": "Slumber Seal",
+    "badge": "Frosty Trap"
+  },
+  {
+    "pos1": "Maetria",
+    "pos2": "Albedo",
+    "pos3": "Joan of Arc",
+    "pos4": "Emilia",
+    "pos5": "Anasta",
+    "pet": "Slumber Seal",
+    "badge": "Meteoric Rise"
+  },
+  {
+    "pos1": "Maetria",
+    "pos2": "Albedo",
+    "pos3": "Joan of Arc",
+    "pos4": "Emilia",
+    "pos5": "Anasta",
+    "pet": "Slumber Seal",
+    "badge": "Cloud of Tempest"
+  },
+  {
+    "pos1": "Maetria",
+    "pos2": "Albedo",
+    "pos3": "Joan of Arc",
+    "pos4": "Ezio",
+    "pos5": "Anasta",
+    "pet": "Slumber Seal",
+    "badge": "Boulder Armor"
+  },
+  {
+    "pos1": "Maetria",
+    "pos2": "Albedo",
+    "pos3": "Joan of Arc",
+    "pos4": "Ezio",
+    "pos5": "Anasta",
+    "pet": "Slumber Seal",
+    "badge": "Frosty Trap"
+  },
+  {
+    "pos1": "Maetria",
+    "pos2": "Albedo",
+    "pos3": "Joan of Arc",
+    "pos4": "Ezio",
+    "pos5": "Anasta",
+    "pet": "Slumber Seal",
+    "badge": "Meteoric Rise"
+  },
+  {
+    "pos1": "Maetria",
+    "pos2": "Albedo",
+    "pos3": "Joan of Arc",
+    "pos4": "Ezio",
+    "pos5": "Anasta",
+    "pet": "Slumber Seal",
+    "badge": "Cloud of Tempest"
+  },
+  {
+    "pos1": "Veithael",
+    "pos2": "Awakened Thane",
+    "pos3": "Haelus",
+    "pos4": "Silas",
+    "pos5": "Sonja",
+    "pet": "Talismane",
+    "badge": "Boulder Armor"
+  },
+  {
+    "pos1": "Awakened Thane",
+    "pos2": "Veithael",
+    "pos3": "Mortas",
+    "pos4": "Ezizh",
+    "pos5": "Silas",
+    "pet": "Blade Ridge",
+    "badge": "Dagger of Disaster"
+  },
+  {
+    "pos1": "Awakened Thane",
+    "pos2": "Alna",
+    "pos3": "Desira",
+    "pos4": "Nevanthi",
+    "pos5": "Anasta",
+    "pet": "Slumber Seal",
+    "badge": "Ring of Dominion"
+  },
+  {
+    "pos1": "Awakened Thane",
+    "pos2": "Palmer",
+    "pos3": "Joan of Arc",
+    "pos4": "Sonja",
+    "pos5": "Merlin",
+    "pet": "Phantasmoth",
+    "badge": "Boulder Armor"
+  },
+  {
+    "pos1": "Joan of Arc",
+    "pos2": "Veithael",
+    "pos3": "Awakened Thane",
+    "pos4": "Silas",
+    "pos5": "Haelus",
+    "pet": "Winged Lion",
+    "badge": "Boulder Armor"
+  },
+  {
+    "pos1": "Awakened Thane",
+    "pos2": "Anasta",
+    "pos3": "Haelus",
+    "pos4": "Emilia",
+    "pos5": "Palmer",
+    "pet": "Flutterplume Owl",
+    "badge": "Axe of Fury"
+  },
+  {
+    "pos1": "Veithael",
+    "pos2": "Awakened Thane",
+    "pos3": "Haelus",
+    "pos4": "Silas",
+    "pos5": "Desira",
+    "pet": "Flutterplume Owl",
+    "badge": "Axe of Fury"
+  },
+  {
+    "pos1": "Albedo",
+    "pos2": "Joan of Arc",
+    "pos3": "Mulan",
+    "pos4": "Awakened Thane",
+    "pos5": "Haelus",
+    "pet": "Talismane",
+    "badge": "Dagger of Disaster"
+  },
+  {
+    "pos1": "Albedo",
+    "pos2": "Joan of Arc",
+    "pos3": "Mulan",
+    "pos4": "Awakened Thane",
+    "pos5": "Haelus",
+    "pet": "Talismane",
+    "badge": "Axe of Fury"
+  },
+  {
+    "pos1": "Albedo",
+    "pos2": "Joan of Arc",
+    "pos3": "Mulan",
+    "pos4": "Awakened Thane",
+    "pos5": "Haelus",
+    "pet": "Slumber Seal",
+    "badge": "Dagger of Disaster"
+  },
+  {
+    "pos1": "Albedo",
+    "pos2": "Joan of Arc",
+    "pos3": "Mulan",
+    "pos4": "Awakened Thane",
+    "pos5": "Haelus",
+    "pet": "Slumber Seal",
+    "badge": "Axe of Fury"
+  },
+  {
+    "pos1": "Awakened Thane",
+    "pos2": "Albedo",
+    "pos3": "Joan of Arc",
+    "pos4": "Mulan",
+    "pos5": "Silas",
+    "pet": "Winged Lion",
+    "badge": "Boulder Armor"
+  },
+  {
+    "pos1": "Awakened Thane",
+    "pos2": "Albedo",
+    "pos3": "Joan of Arc",
+    "pos4": "Mulan",
+    "pos5": "Silas",
+    "pet": "Winged Lion",
+    "badge": "Cloud of Tempest"
+  },
+  {
+    "pos1": "Awakened Thane",
+    "pos2": "Albedo",
+    "pos3": "Joan of Arc",
+    "pos4": "Mulan",
+    "pos5": "Silas",
+    "pet": "Winged Lion",
+    "badge": "Frosty Trap"
+  },
+  {
+    "pos1": "Awakened Thane",
+    "pos2": "Albedo",
+    "pos3": "Joan of Arc",
+    "pos4": "Mulan",
+    "pos5": "Silas",
+    "pet": "Winged Lion",
+    "badge": "Meteoric Rise"
+  },
+  {
+    "pos1": "Awakened Thane",
+    "pos2": "Albedo",
+    "pos3": "Joan of Arc",
+    "pos4": "Tamrus",
+    "pos5": "Yennifer",
+    "pet": "Flutterplume Owl",
+    "badge": "Cloud of Tempest"
+  },
+  {
+    "pos1": "Albedo",
+    "pos2": "Veithael",
+    "pos3": "Awakened Thane",
+    "pos4": "Emilia",
+    "pos5": "Mulan",
+    "pet": "Winged Lion",
+    "badge": "Axe of Fury"
+  },
+  {
+    "pos1": "Awakened Thane",
+    "pos2": "Sonja",
+    "pos3": "Haelus",
+    "pos4": "Scarlet",
+    "pos5": "Raine",
+    "pet": "Savage Souffle",
+    "badge": "Axe of Fury"
+  },
+  {
+    "pos1": "Awakened Thane",
+    "pos2": "Talene",
+    "pos3": "Raine",
+    "pos4": "Scarlet",
+    "pos5": "Haelus",
+    "pet": "Savage Souffle",
+    "badge": "Axe of Fury"
+  },
+  {
+    "pos1": "Albedo",
+    "pos2": "Joan of Arc",
+    "pos3": "Mulan",
+    "pos4": "Awakened Thane",
+    "pos5": "Sonja",
+    "pet": "Flutterplume Owl",
+    "badge": "Axe of Fury"
+  },
+  {
+    "pos1": "Alna",
+    "pos2": "Awakened Thane",
+    "pos3": "Nevanthi",
+    "pos4": "Desira",
+    "pos5": "Lorsan",
+    "pet": "Flutterplume Owl",
+    "badge": "Ring of Dominion"
+  },
+  {
+    "pos1": "Veithael",
+    "pos2": "Anasta",
+    "pos3": "Tamrus",
+    "pos4": "Awakened Thane",
+    "pos5": "Haelus",
+    "pet": "Winged Lion",
+    "badge": "Dagger of Disaster"
+  },
+  {
+    "pos1": "Mishka",
+    "pos2": "Canissa & Ruke",
+    "pos3": "Awakened Baden",
+    "pos4": "Scarlet",
+    "pos5": "Nevanthi",
+    "pet": "Flutterplume Owl",
+    "badge": "Meteoric Rise"
+  },
+  {
+    "pos1": "Awakened Baden",
+    "pos2": "Canissa & Ruke",
+    "pos3": "Oden",
+    "pos4": "Scarlet",
+    "pos5": "Nevanthi",
+    "pet": "Flutterplume Owl",
+    "badge": "Ring of Dominion"
+  },
+  {
+    "pos1": "Talene",
+    "pos2": "Awakened Baden",
+    "pos3": "Nevanthi",
+    "pos4": "Silas",
+    "pos5": "Desira",
+    "pet": "Slumber Seal",
+    "badge": "Sweeping Tide"
+  },
+  {
+    "pos1": "Awakened Baden",
+    "pos2": "Anasta",
+    "pos3": "Nevanthi",
+    "pos4": "Talene",
+    "pos5": "Canissa & Ruke",
+    "pet": "Talismane",
+    "badge": "Boulder Armor"
+  },
+  {
+    "pos1": "Zolrath",
+    "pos2": "Awakened Baden",
+    "pos3": "Mortas",
+    "pos4": "Silas",
+    "pos5": "Oden",
+    "pet": "Flutterplume Owl",
+    "badge": "Axe of Fury"
+  },
+  {
+    "pos1": "Veithael",
+    "pos2": "Awakened Baden",
+    "pos3": "Silas",
+    "pos4": "Elijah & Lilah",
+    "pos5": "Oden",
+    "pet": "Flutterplume Owl",
+    "badge": "Frosty Trap"
+  },
+  {
+    "pos1": "Awakened Baden",
+    "pos2": "Edwin",
+    "pos3": "Oden",
+    "pos4": "Silas",
+    "pos5": "Desira",
+    "pet": "Flutterplume Owl",
+    "badge": "Frosty Trap"
+  },
+  {
+    "pos1": "Canissa & Ruke",
+    "pos2": "Awakened Baden",
+    "pos3": "Nevanthi",
+    "pos4": "Oden",
+    "pos5": "Silas",
+    "pet": "Talismane",
+    "badge": "Cloud of Tempest"
+  },
+  {
+    "pos1": "Awakened Baden",
+    "pos2": "Grezhul",
+    "pos3": "Oden",
+    "pos4": "Silas",
+    "pos5": "Desira",
+    "pet": "Flutterplume Owl",
+    "badge": "Frosty Trap"
+  },
+  {
+    "pos1": "Awakened Baden",
+    "pos2": "Veithael",
+    "pos3": "Mortas",
+    "pos4": "Silas",
+    "pos5": "Merlin",
+    "pet": "Talismane",
+    "badge": "Ring of Dominion"
+  },
+  {
+    "pos1": "Awakened Baden",
+    "pos2": "Veithael",
+    "pos3": "Mortas",
+    "pos4": "Silas",
+    "pos5": "Merlin",
+    "pet": "Talismane",
+    "badge": "Meteoric Rise"
+  },
+  {
+    "pos1": "Awakened Baden",
+    "pos2": "Veithael",
+    "pos3": "Silas",
+    "pos4": "Desira",
+    "pos5": "Hodgkin",
+    "pet": "Rock Crown Lizard",
+    "badge": "Boulder Armor"
+  },
+  {
+    "pos1": "Awakened Baden",
+    "pos2": "Canissa & Ruke",
+    "pos3": "Joan of Arc",
+    "pos4": "Mulan",
+    "pos5": "Albedo",
+    "pet": "Slumber Seal",
+    "badge": "Dagger of Disaster"
+  },
+  {
+    "pos1": "Awakened Baden",
+    "pos2": "Geralt",
+    "pos3": "Joan of Arc",
+    "pos4": "Mulan",
+    "pos5": "Albedo",
+    "pet": "Slumber Seal",
+    "badge": "Dagger of Disaster"
+  },
+  {
+    "pos1": "Awakened Baden",
+    "pos2": "Rem",
+    "pos3": "Joan of Arc",
+    "pos4": "Mulan",
+    "pos5": "Albedo",
+    "pet": "Slumber Seal",
+    "badge": "Dagger of Disaster"
+  },
+  {
+    "pos1": "Awakened Baden",
+    "pos2": "Anasta",
+    "pos3": "Silas",
+    "pos4": "Ezizh",
+    "pos5": "Elijah & Lilah",
+    "pet": "Flutterplume Owl",
+    "badge": "Meteoric Rise"
+  },
+  {
+    "pos1": "Awakened Baden",
+    "pos2": "Talene",
+    "pos3": "Elijah & Lilah",
+    "pos4": "Nevanthi",
+    "pos5": "Ezizh",
+    "pet": "Talismane",
+    "badge": "Ring of Dominion"
+  },
+  {
+    "pos1": "Veithael",
+    "pos2": "Awakened Baden",
+    "pos3": "Silas",
+    "pos4": "Desira",
+    "pos5": "Daimon",
+    "pet": "Flutterplume Owl",
+    "badge": "Axe of Fury"
+  },
+  {
+    "pos1": "Veithael",
+    "pos2": "Awakened Baden",
+    "pos3": "Silas",
+    "pos4": "Desira",
+    "pos5": "Daimon",
+    "pet": "Flutterplume Owl",
+    "badge": "Cloud of Tempest"
+  },
+  {
+    "pos1": "Veithael",
+    "pos2": "Awakened Baden",
+    "pos3": "Silas",
+    "pos4": "Desira",
+    "pos5": "Daimon",
+    "pet": "Flutterplume Owl",
+    "badge": "Sweeping Tide"
+  },
+  {
+    "pos1": "Veithael",
+    "pos2": "Awakened Baden",
+    "pos3": "Silas",
+    "pos4": "Desira",
+    "pos5": "Daimon",
+    "pet": "Flutterplume Owl",
+    "badge": "Meteoric Rise"
+  },
+  {
+    "pos1": "Veithael",
+    "pos2": "Awakened Baden",
+    "pos3": "Silas",
+    "pos4": "Desira",
+    "pos5": "Daimon",
+    "pet": "Talismane",
+    "badge": "Axe of Fury"
+  },
+  {
+    "pos1": "Veithael",
+    "pos2": "Awakened Baden",
+    "pos3": "Silas",
+    "pos4": "Desira",
+    "pos5": "Daimon",
+    "pet": "Talismane",
+    "badge": "Cloud of Tempest"
+  },
+  {
+    "pos1": "Veithael",
+    "pos2": "Awakened Baden",
+    "pos3": "Silas",
+    "pos4": "Desira",
+    "pos5": "Daimon",
+    "pet": "Talismane",
+    "badge": "Sweeping Tide"
+  },
+  {
+    "pos1": "Veithael",
+    "pos2": "Awakened Baden",
+    "pos3": "Silas",
+    "pos4": "Desira",
+    "pos5": "Daimon",
+    "pet": "Talismane",
+    "badge": "Meteoric Rise"
+  },
+  {
+    "pos1": "Awakened Baden",
+    "pos2": "Grezhul",
+    "pos3": "Haelus",
+    "pos4": "Scarlet",
+    "pos5": "Nevanthi",
+    "pet": "Savage Souffle",
+    "badge": "Ring of Dominion"
+  },
+  {
+    "pos1": "Awakened Baden",
+    "pos2": "Grezhul",
+    "pos3": "Haelus",
+    "pos4": "Scarlet",
+    "pos5": "Nevanthi",
+    "pet": "Slumber Seal",
+    "badge": "Ring of Dominion"
+  },
+  {
+    "pos1": "Ezizh",
+    "pos2": "Awakened Baden",
+    "pos3": "Mortas",
+    "pos4": "Merlin",
+    "pos5": "Elijah & Lilah",
+    "pet": "Talismane",
+    "badge": "Axe of Fury"
+  },
+  {
+    "pos1": "Awakened Baden",
+    "pos2": "Anasta",
+    "pos3": "Elijah & Lilah",
+    "pos4": "Nevanthi",
+    "pos5": "Ezizh",
+    "pet": "Talismane",
+    "badge": "Axe of Fury"
+  },
+  {
+    "pos1": "Awakened Baden",
+    "pos2": "Veithael",
+    "pos3": "Ainz Ooal Gown",
+    "pos4": "Haelus",
+    "pos5": "Silas",
+    "pet": "Talismane",
+    "badge": "Ring of Dominion"
+  },
+  {
+    "pos1": "Haelus",
+    "pos2": "Awakened Baden",
+    "pos3": "Ferael",
+    "pos4": "Desira",
+    "pos5": "Silas",
+    "pet": "Talismane",
+    "badge": "Dagger of Disaster"
+  },
+  {
+    "pos1": "Ezizh",
+    "pos2": "Awakened Baden",
+    "pos3": "Oden",
+    "pos4": "Silas",
+    "pos5": "Mortas",
+    "pet": "Tufty Ears",
+    "badge": "Meteoric Rise"
+  },
+  {
+    "pos1": "Veithael",
+    "pos2": "Awakened Baden",
+    "pos3": "Mortas",
+    "pos4": "Silas",
+    "pos5": "Haelus",
+    "pet": "Talismane",
+    "badge": "Ring of Dominion"
+  },
+  {
+    "pos1": "Awakened Baden",
+    "pos2": "Alna",
+    "pos3": "Desira",
+    "pos4": "Silas",
+    "pos5": "Oden",
+    "pet": "Flutterplume Owl",
+    "badge": "Axe of Fury"
+  },
+  {
+    "pos1": "Hodgkin",
+    "pos2": "Awakened Baden",
+    "pos3": "Oden",
+    "pos4": "Silas",
+    "pos5": "Anasta",
+    "pet": "Flutterplume Owl",
+    "badge": "Ring of Dominion"
+  },
+  {
+    "pos1": "Awakened Baden",
+    "pos2": "Grezhul",
+    "pos3": "Nevanthi",
+    "pos4": "Desira",
+    "pos5": "Silas",
+    "pet": "Slumber Seal",
+    "badge": "Sweeping Tide"
+  },
+  {
+    "pos1": "Canissa & Ruke",
+    "pos2": "Awakened Baden",
+    "pos3": "Desira",
+    "pos4": "Silas",
+    "pos5": "Oden",
+    "pet": "Talismane",
+    "badge": "Ring of Dominion"
+  },
+  {
+    "pos1": "Awakened Baden",
+    "pos2": "Anasta",
+    "pos3": "Elijah & Lilah",
+    "pos4": "Tamrus",
+    "pos5": "Silas",
+    "pet": "Flutterplume Owl",
+    "badge": "Ring of Dominion"
+  },
+  {
+    "pos1": "Awakened Baden",
+    "pos2": "Veithael",
+    "pos3": "Tamrus",
+    "pos4": "Mulan",
+    "pos5": "Silas",
+    "pet": "Flutterplume Owl",
+    "badge": "Ring of Dominion"
+  }
+]

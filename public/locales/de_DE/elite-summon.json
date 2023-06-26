@@ -1,0 +1,13 @@
+{
+  "help": "Dieses Tool zeigt die an wie viele Diamanten du benötigst, um einen Helden auf die Aufgestiegenen-Stufe aufzusteigen",
+  "current-count-label": "Gewünschte Anzahl an Helden eingeben:",
+  "current-elite": "Vorhandene Elite Helden",
+  "current-elite-p": "Vorhandene Elite+ Helden",
+  "current-legendary": "Vorhandene Legendär Helden",
+  "current-legendary-p": "Vorhandene Legänder+ Helden",
+  "current-mythic": "Vorhandene Mythisch Helden",
+  "current-mythic-p": "Vorhandene Mythisch+ Helden",
+  "required-count-label": "Für einen Aufgestiegenen Helden brauchst du so viele Kopien:",
+  "required-nothing": "Nichts mehr benötigt!",
+  "required-count": "{{diams}}"
+}

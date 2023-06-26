@@ -1,0 +1,19 @@
+{
+  "abex-relic-sell-desc": "Kalkulačka na prodání relicu",
+  "confirm-reset-box": "Tato akce obnoví všechna vaše existující data, opravdu chcete pokračovat?",
+  "reset-box": "Reset The Box",
+  "help": "Zadejte relics které máte odemčené, zadejte vaše cíle, zadejte relics které vlastníte. U nepotřebných relics se objeví štítek s číslem (počet kolik jich už nepotřebujete)",
+  "label-goal": "Cíl",
+  "label-current": "Současný",
+  "label-inventory": "Inventář",
+  "label-calculator": "Chybějící náklady",
+  "label-warn-testing": "Tato čísla by měla být používána opatrně. Nebyla dostatečně otestována",
+  "label-cost-unknown": "Cena pro relics které nemáte:",
+  "label-cost-total": "Celková cena za vylepšení:",
+  "elevation-level-0": "Žádný",
+  "elevation-level-1": "Obyčejný",
+  "elevation-level-2": "Vzácný",
+  "elevation-level-3": "Elitní",
+  "elevation-level-4": "Legendární",
+  "elevation-level-5": "Mýtický"
+}

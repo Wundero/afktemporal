@@ -1,0 +1,17 @@
+{
+  "simulate": "simuliere",
+  "current-tree": "Aktueller Baum",
+  "max-data-reach": "Maximale Wert-Datenreichweite. Die Werte sind daher nicht exakt.",
+  "hp": "HP",
+  "hp.pr": "HP%",
+  "atk": "ATK",
+  "atk.pr": "ATK%",
+  "arm": "DEF",
+  "arm.pr": "DEF%",
+  "hit": "ACC",
+  "dodg": "Ausweichen",
+  "mspd": "Hast",
+  "crit": "CRIT",
+  "lfs": "Lebensentzug",
+  "main-tree-empty": "Fill your main elder tree up to 11 to start changing the branch values"
+}

@@ -1,0 +1,18 @@
+{
+  "title-public": "Прогресс PVE",
+  "label-kings-tower": "Башня короля",
+  "label-lightbearer-tower": "Башня света",
+  "label-mauler-tower": "Цитадель жестокости",
+  "label-wilder-tower": "Мировое древо",
+  "label-graveborn-tower": "Заброшенный некрополь",
+  "label-celestial-tower": "Небесное святилище",
+  "label-hypogean-tower": "Дьявольская крепость",
+  "label-campaign": "Кампания",
+  "label-campaign-helper": "(формат: 42-15)",
+  "label-crystal": "Резонирующий кристалл",
+  "label-crystal-max": "Резонирующий кристалл (макс.)",
+  "label-crystal-level": "Уровень кристалла",
+  "label-level": "{{ level }} уровень",
+  "max-crystal-differ": "Вычисленное значение максимального кристалла ({{ maxCalculated }}) отличается от того, что сохранено.",
+  "max-crystal-update": "Обновить значение до {{ maxCalculated }}"
+}

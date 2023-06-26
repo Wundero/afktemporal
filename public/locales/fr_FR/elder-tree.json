@@ -1,0 +1,17 @@
+{
+  "simulate": "Simuler",
+  "current-tree": "Arbre actuel",
+  "max-data-reach": "Les données de statistiques maximales atteintes. Les valeurs ne sont donc pas exactes.",
+  "hp": "PV",
+  "hp.pr": "PV%",
+  "atk": "ATQ",
+  "atk.pr": "ATQ%",
+  "arm": "DÉF",
+  "arm.pr": "DÉF%",
+  "hit": "PRÉC",
+  "dodg": "ESQUIVE",
+  "mspd": "VITESSE",
+  "crit": "Crit",
+  "lfs": "VV",
+  "main-tree-empty": "Mettez votre branche principale à 11 pour pouvoir monter les autres branches"
+}

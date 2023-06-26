@@ -1,0 +1,18 @@
+{
+  "title-public": "Прогрес PVE",
+  "label-kings-tower": "Королівська вежа",
+  "label-lightbearer-tower": "Вежа Світла",
+  "label-mauler-tower": "Цитадель жорстокості",
+  "label-wilder-tower": "Світове дерево",
+  "label-graveborn-tower": "Покинутий некрополь",
+  "label-celestial-tower": "Небесне святилище",
+  "label-hypogean-tower": "Пекельна фортеця",
+  "label-campaign": "Кампанія",
+  "label-campaign-helper": "(формат: 42-15)",
+  "label-crystal": "Резонівний кристал",
+  "label-crystal-max": "Резонансний кристал (макс.)",
+  "label-crystal-level": "Рівень кристалу",
+  "label-level": "{{ level }} рівень",
+  "max-crystal-differ": "Розраховане значення максимального кристала ({{ maxCalculated }}) відрізняється від збереженого.",
+  "max-crystal-update": "Оновити значення до {{ maxCalculated }}"
+}

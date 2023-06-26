@@ -1,0 +1,18 @@
+{
+  "title-public": "Progressão PVE",
+  "label-kings-tower": "Torre do Rei",
+  "label-lightbearer-tower": "Torre da Luz",
+  "label-mauler-tower": "A Cidadela Brutal",
+  "label-wilder-tower": "A Árvore do Mundo",
+  "label-graveborn-tower": "Necrópole abandonada",
+  "label-celestial-tower": "Santuário Celestial",
+  "label-hypogean-tower": "Fortaleza Infernal",
+  "label-campaign": "Campanha",
+  "label-campaign-helper": "(formato: 42-15)",
+  "label-crystal": "Cristal Ressonante",
+  "label-crystal-max": "Cristal Ressonante Máximo",
+  "label-crystal-level": "Nível do Cristal",
+  "label-level": "Nvl {{level}}",
+  "max-crystal-differ": "O cristal máximo calculado ({{ maxCalculated }}) é diferente do salvo.",
+  "max-crystal-update": "Atualizar o valor para {{ maxCalculated }}"
+}

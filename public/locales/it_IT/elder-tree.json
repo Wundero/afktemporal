@@ -1,0 +1,17 @@
+{
+  "simulate": "Simula",
+  "current-tree": "Albero corrente",
+  "max-data-reach": "Dati statistiche massimo raggiunto, I valori non sono esatti.",
+  "hp": "HP",
+  "hp.pr": "HP%",
+  "atk": "ATK",
+  "atk.pr": "ATK%",
+  "arm": "DEF",
+  "arm.pr": "DEF%",
+  "hit": "ACC",
+  "dodg": "DODGE",
+  "mspd": "FRETTA",
+  "crit": "CRIT",
+  "lfs": "LL",
+  "main-tree-empty": "Fill your main elder tree up to 11 to start changing the branch values"
+}
