@@ -251,6 +251,32 @@ const Team: React.FC<TeamProps> = (props) => {
 export default function Home() {
   const [selected, setSelected] = React.useState<number[]>([]);
 
+  const [heroFilter, setHeroFilter] = React.useState<string[]>([]);
+  const [petFilter, setPetFilter] = React.useState<string[]>([]);
+  const [badgeFilter, setBadgeFilter] = React.useState<string[]>([]);
+
+  const [heroSelectMode, setHeroSelectMode] = React.useState("AND");
+
+  const [allHeroes, allPets, allBadges] = useMemo(() => {
+    const heroes = new Set<string>();
+    const pets = new Set<string>();
+    const badges = new Set<string>();
+    for (let i = 0; i < teamsRaw.length; i++) {
+      const team = teamsRaw[i];
+      if (!team) {
+        continue;
+      }
+      heroes.add(team.pos1);
+      heroes.add(team.pos2);
+      heroes.add(team.pos3);
+      heroes.add(team.pos4);
+      heroes.add(team.pos5);
+      pets.add(team.pet);
+      badges.add(team.badge);
+    }
+    return [Array.from(heroes), Array.from(pets), Array.from(badges)];
+  }, []);
+
   const usedHeroes = useMemo(() => {
     return selected
       .flatMap((i) => {
@@ -294,9 +320,54 @@ export default function Home() {
   }, [selected]);
 
   const teams = useMemo(() => {
-    const copy = teamsRaw.map((team, i) => {
-      return [team, i];
-    }) as [Team, number][];
+    const copy = teamsRaw
+      .filter((team) => {
+        if (badgeFilter.length > 0 && !badgeFilter.includes(team.badge)) {
+          return false;
+        }
+        if (petFilter.length > 0 && !petFilter.includes(team.pet)) {
+          return false;
+        }
+        if (heroFilter.length > 0) {
+          if (heroSelectMode === "AND") {
+            const teamHeroes = [
+              team.pos1,
+              team.pos2,
+              team.pos3,
+              team.pos4,
+              team.pos5,
+            ];
+            for (let i = 0; i < heroFilter.length; i++) {
+              const hero = heroFilter[i];
+              if (hero && !teamHeroes.includes(hero)) {
+                return false;
+              }
+            }
+          } else {
+            let has = false;
+            if (heroFilter.includes(team.pos1)) {
+              has = true;
+            }
+            if (heroFilter.includes(team.pos2)) {
+              has = true;
+            }
+            if (heroFilter.includes(team.pos3)) {
+              has = true;
+            }
+            if (heroFilter.includes(team.pos4)) {
+              has = true;
+            }
+            if (heroFilter.includes(team.pos5)) {
+              has = true;
+            }
+            return has;
+          }
+        }
+        return true;
+      })
+      .map((team, i) => {
+        return [team, i];
+      }) as [Team, number][];
     copy.sort((a, b) => {
       const [aTeam, ai] = a;
       const [bTeam, bi] = b;
@@ -359,7 +430,16 @@ export default function Home() {
       return aUsedcount - bUsedcount;
     });
     return copy;
-  }, [selected, usedBadges, usedHeroes, usedPets]);
+  }, [
+    selected,
+    usedBadges,
+    usedHeroes,
+    usedPets,
+    heroFilter,
+    petFilter,
+    badgeFilter,
+    heroSelectMode,
+  ]);
 
   return (
     <>
@@ -384,6 +464,104 @@ export default function Home() {
             </a>
           </div>
           <div className="flex max-h-[80vh] gap-10 overflow-auto p-2">
+            <div className="sticky top-0 flex flex-col gap-1">
+              <div className="flex w-[584px] justify-center text-white">
+                Filter
+              </div>
+              <div className="flex flex-wrap gap-1">
+                <div className="flex flex-wrap gap-1 rounded border-2 border-black p-1">
+                  {allHeroes.map((hero) => {
+                    const selected = heroFilter.includes(hero);
+                    return (
+                      <div
+                        key={hero}
+                        className={cn(
+                          "cursor-pointer border-2 border-slate-300",
+                          {
+                            "border-green-500": selected,
+                          }
+                        )}
+                        onClick={() => {
+                          if (selected) {
+                            setHeroFilter(heroFilter.filter((p) => p !== hero));
+                          } else {
+                            setHeroFilter([...heroFilter, hero]);
+                          }
+                        }}
+                      >
+                        <Hero hero={hero} used={!selected} />
+                      </div>
+                    );
+                  })}
+                  <div
+                    className={cn(
+                      "flex w-[68px] cursor-pointer items-center justify-center border-2 border-slate-300 bg-green-800 text-white"
+                    )}
+                    onClick={() => {
+                      if (heroSelectMode === "AND") {
+                        setHeroSelectMode("OR");
+                      } else {
+                        setHeroSelectMode("AND");
+                      }
+                    }}
+                  >
+                    {heroSelectMode}
+                  </div>
+                </div>
+                <div className="flex flex-wrap gap-1 rounded border-2 border-black p-1">
+                  {allPets.map((pet) => {
+                    const selected = petFilter.includes(pet);
+                    return (
+                      <div
+                        key={pet}
+                        className={cn(
+                          "cursor-pointer border-2 border-slate-300",
+                          {
+                            "border-green-500": selected,
+                          }
+                        )}
+                        onClick={() => {
+                          if (selected) {
+                            setPetFilter(petFilter.filter((p) => p !== pet));
+                          } else {
+                            setPetFilter([...petFilter, pet]);
+                          }
+                        }}
+                      >
+                        <Pet pet={pet} used={!selected} />
+                      </div>
+                    );
+                  })}
+                </div>
+                <div className="flex flex-wrap gap-1 rounded border-2 border-black p-1">
+                  {allBadges.map((badge) => {
+                    const selected = badgeFilter.includes(badge);
+                    return (
+                      <div
+                        key={badge}
+                        className={cn(
+                          "cursor-pointer border-2 border-slate-300",
+                          {
+                            "border-green-500": selected,
+                          }
+                        )}
+                        onClick={() => {
+                          if (selected) {
+                            setBadgeFilter(
+                              badgeFilter.filter((p) => p !== badge)
+                            );
+                          } else {
+                            setBadgeFilter([...badgeFilter, badge]);
+                          }
+                        }}
+                      >
+                        <Badge badge={badge} used={!selected} />
+                      </div>
+                    );
+                  })}
+                </div>
+              </div>
+            </div>
             <div className="flex flex-col gap-1">
               <div className="flex w-[484px] justify-center text-white">
                 Recommended Teams
