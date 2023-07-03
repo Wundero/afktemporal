@@ -178,6 +178,7 @@ const Pet: React.FC<{ pet: string; used: boolean }> = (props) => {
       <Image
         src={getPetImage(props.pet)}
         className="h-16 w-16"
+        style={{ objectFit: "cover" }}
         alt={props.pet}
         title={props.pet}
         width={100}
