@@ -17,6 +17,7 @@ type Team = {
 
 type TeamProps = {
   team: Team;
+  raw: Team;
   usedHeroes: string[];
   usedPets: string[];
   usedBadges: string[];
@@ -135,7 +136,9 @@ function getPetImage(pet: string) {
   return `/pets/${pet.toLowerCase()}.png`;
 }
 
-const Hero: React.FC<{ hero: string; used: boolean }> = (props) => {
+const Hero: React.FC<{ hero: string; used: boolean; sp?: boolean }> = (
+  props
+) => {
   const heroName = useMemo(() => {
     if (props.hero.includes("[sp]")) {
       return props.hero.replace(/ ?\[sp\]/g, "");
@@ -144,12 +147,15 @@ const Hero: React.FC<{ hero: string; used: boolean }> = (props) => {
   }, [props.hero]);
 
   return (
-    <div className={cn("bg-slate-800", { grayscale: props.used })}>
+    <div className={cn("relative bg-slate-800", { grayscale: props.used })}>
+      {props.sp && (
+        <div className="pointer-events-none absolute inset-[-2px] border-2 border-green-300 text-white"></div>
+      )}
       <Image
         src={getHeroImage(heroName)}
         className="h-16 w-16"
         alt={props.hero}
-        title={props.hero}
+        title={props.hero + (props.sp ? " [SP]" : "")}
         width={100}
         height={100}
       />
@@ -199,6 +205,16 @@ const Team: React.FC<TeamProps> = (props) => {
     ];
   }, [props.team]);
 
+  const heroSp = useMemo(() => {
+    return [
+      props.raw.pos1.includes("[sp]"),
+      props.raw.pos2.includes("[sp]"),
+      props.raw.pos3.includes("[sp]"),
+      props.raw.pos4.includes("[sp]"),
+      props.raw.pos5.includes("[sp]"),
+    ] as const;
+  }, [props.raw]);
+
   const isUsedAlready = useMemo(() => {
     if (!props.checkUsed) {
       return false;
@@ -232,6 +248,7 @@ const Team: React.FC<TeamProps> = (props) => {
         return (
           <Hero
             key={i}
+            sp={heroSp[i]}
             hero={hero}
             used={props.checkUsed && props.usedHeroes.includes(hero)}
           />
@@ -248,6 +265,10 @@ const Team: React.FC<TeamProps> = (props) => {
     </div>
   );
 };
+
+function cleanHero(hero: string): string {
+  return hero.replace(/ ?\[sp\]/g, "");
+}
 
 export default function Home() {
   const [selected, setSelected] = React.useState<number[]>([]);
@@ -267,11 +288,11 @@ export default function Home() {
       if (!team) {
         continue;
       }
-      heroes.add(team.pos1);
-      heroes.add(team.pos2);
-      heroes.add(team.pos3);
-      heroes.add(team.pos4);
-      heroes.add(team.pos5);
+      heroes.add(cleanHero(team.pos1));
+      heroes.add(cleanHero(team.pos2));
+      heroes.add(cleanHero(team.pos3));
+      heroes.add(cleanHero(team.pos4));
+      heroes.add(cleanHero(team.pos5));
       pets.add(team.pet);
       badges.add(team.badge);
     }
@@ -293,7 +314,8 @@ export default function Home() {
         ];
       })
       .filter((i) => i)
-      .map((i) => i as string);
+      .map((i) => i as string)
+      .map(cleanHero);
   }, [selected]);
 
   const usedPets = useMemo(() => {
@@ -322,6 +344,16 @@ export default function Home() {
 
   const teams = useMemo(() => {
     const copy = teamsRaw
+      .map((team) => {
+        return {
+          ...team,
+          pos1: cleanHero(team.pos1),
+          pos2: cleanHero(team.pos2),
+          pos3: cleanHero(team.pos3),
+          pos4: cleanHero(team.pos4),
+          pos5: cleanHero(team.pos5),
+        };
+      })
       .map((team, i) => {
         return [team, i] as const;
       })
@@ -644,6 +676,7 @@ export default function Home() {
                   <Team
                     key={i}
                     team={team}
+                    raw={teamsRaw[i]!}
                     usedBadges={usedBadges}
                     usedHeroes={usedHeroes}
                     usedPets={usedPets}
@@ -669,6 +702,7 @@ export default function Home() {
                   <Team
                     key={i}
                     team={team}
+                    raw={teamsRaw[i]!}
                     usedBadges={usedBadges}
                     usedHeroes={usedHeroes}
                     usedPets={usedPets}
