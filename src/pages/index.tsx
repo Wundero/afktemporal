@@ -321,7 +321,10 @@ export default function Home() {
 
   const teams = useMemo(() => {
     const copy = teamsRaw
-      .filter((team) => {
+      .map((team, i) => {
+        return [team, i] as const;
+      })
+      .filter(([team, _]) => {
         if (badgeFilter.length > 0 && !badgeFilter.includes(team.badge)) {
           return false;
         }
@@ -364,9 +367,6 @@ export default function Home() {
           }
         }
         return true;
-      })
-      .map((team, i) => {
-        return [team, i];
       }) as [Team, number][];
     copy.sort((a, b) => {
       const [aTeam, ai] = a;
@@ -440,6 +440,78 @@ export default function Home() {
     badgeFilter,
     heroSelectMode,
   ]);
+
+  const selectedTeams = useMemo(() => {
+    const copy = teamsRaw
+      .map((team, i) => {
+        return [team, i] as const;
+      })
+      .filter(([_, i]) => {
+        return selected.includes(i);
+      }) as [Team, number][];
+    copy.sort((a, b) => {
+      const [aTeam, ai] = a;
+      const [bTeam, bi] = b;
+      if (selected.includes(ai) && selected.includes(bi)) {
+        return ai - bi;
+      }
+      if (selected.includes(ai)) {
+        return -1;
+      }
+      if (selected.includes(bi)) {
+        return 1;
+      }
+      let aUsedcount = 0;
+      let bUsedcount = 0;
+      if (usedHeroes.includes(aTeam.pos1)) {
+        aUsedcount++;
+      }
+      if (usedHeroes.includes(aTeam.pos2)) {
+        aUsedcount++;
+      }
+      if (usedHeroes.includes(aTeam.pos3)) {
+        aUsedcount++;
+      }
+      if (usedHeroes.includes(aTeam.pos4)) {
+        aUsedcount++;
+      }
+      if (usedHeroes.includes(aTeam.pos5)) {
+        aUsedcount++;
+      }
+      if (usedPets.includes(aTeam.pet)) {
+        aUsedcount++;
+      }
+      if (usedBadges.includes(aTeam.badge)) {
+        aUsedcount++;
+      }
+      if (usedHeroes.includes(bTeam.pos1)) {
+        bUsedcount++;
+      }
+      if (usedHeroes.includes(bTeam.pos2)) {
+        bUsedcount++;
+      }
+      if (usedHeroes.includes(bTeam.pos3)) {
+        bUsedcount++;
+      }
+      if (usedHeroes.includes(bTeam.pos4)) {
+        bUsedcount++;
+      }
+      if (usedHeroes.includes(bTeam.pos5)) {
+        bUsedcount++;
+      }
+      if (usedPets.includes(bTeam.pet)) {
+        bUsedcount++;
+      }
+      if (usedBadges.includes(bTeam.badge)) {
+        bUsedcount++;
+      }
+      if (aUsedcount === bUsedcount) {
+        return ai - bi;
+      }
+      return aUsedcount - bUsedcount;
+    });
+    return copy;
+  }, [selected, usedBadges, usedHeroes, usedPets]);
 
   return (
     <>
@@ -591,26 +663,22 @@ export default function Home() {
               <div className="flex w-[484px] justify-center text-white">
                 Selected
               </div>
-              {teams
-                .filter(([_, i]) => {
-                  return selected.includes(i);
-                })
-                .map(([team, i]) => {
-                  return (
-                    <Team
-                      key={i}
-                      team={team}
-                      usedBadges={usedBadges}
-                      usedHeroes={usedHeroes}
-                      usedPets={usedPets}
-                      checkUsed={false}
-                      selected={true}
-                      onClick={() => {
-                        setSelected(selected.filter((x) => x !== i));
-                      }}
-                    ></Team>
-                  );
-                })}
+              {selectedTeams.map(([team, i]) => {
+                return (
+                  <Team
+                    key={i}
+                    team={team}
+                    usedBadges={usedBadges}
+                    usedHeroes={usedHeroes}
+                    usedPets={usedPets}
+                    checkUsed={false}
+                    selected={true}
+                    onClick={() => {
+                      setSelected(selected.filter((x) => x !== i));
+                    }}
+                  ></Team>
+                );
+              })}
             </div>
           </div>
         </div>
