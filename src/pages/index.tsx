@@ -1,9 +1,15 @@
+/* eslint-disable @typescript-eslint/no-non-null-assertion */
 import Head from "next/head";
 import Image from "next/image";
 import React from "react";
 import { useMemo } from "react";
 import teamsRaw from "~/data/temporal_rift.json";
 import { cn } from "~/utils/styles";
+import superjson from "superjson";
+import localforage from "localforage";
+import { useAtom } from "jotai";
+import { atomWithStorage } from "jotai/utils";
+import type { AsyncStorage } from "jotai/vanilla/utils/atomWithStorage";
 
 type Team = {
   pos1: string;
@@ -270,14 +276,56 @@ function cleanHero(hero: string): string {
   return hero.replace(/ ?\[sp\]/g, "");
 }
 
+const superstorage = {
+  getItem: async (key: string, initial: unknown): Promise<unknown> => {
+    const value = await localforage.getItem<string>(key);
+    if (value) {
+      return superjson.parse(value);
+    }
+    return initial;
+  },
+  setItem: async (key: string, value: unknown) => {
+    await localforage.setItem(key, superjson.stringify(value));
+  },
+  removeItem: async (key: string) => {
+    await localforage.removeItem(key);
+  },
+};
+
+function superStorage<T>() {
+  return superstorage as AsyncStorage<T>;
+}
+
+const selectedAtom = atomWithStorage<number[]>("selected", [], superStorage());
+const heroFilterAtom = atomWithStorage<string[]>(
+  "heroFilter",
+  [],
+  superStorage()
+);
+const petFilterAtom = atomWithStorage<string[]>(
+  "petFilter",
+  [],
+  superStorage()
+);
+const badgeFilterAtom = atomWithStorage<string[]>(
+  "badgeFilter",
+  [],
+  superStorage()
+);
+const heroSelectModeAtom = atomWithStorage<string>(
+  "heroSelectMode",
+  "AND",
+  superStorage()
+);
+
 export default function Home() {
-  const [selected, setSelected] = React.useState<number[]>([]);
+  const [selected, setSelected] = useAtom(selectedAtom);
 
-  const [heroFilter, setHeroFilter] = React.useState<string[]>([]);
-  const [petFilter, setPetFilter] = React.useState<string[]>([]);
-  const [badgeFilter, setBadgeFilter] = React.useState<string[]>([]);
+  const [heroFilter, setHeroFilter] = useAtom(heroFilterAtom);
+  const [petFilter, setPetFilter] = useAtom(petFilterAtom);
+  const [badgeFilter, setBadgeFilter] = useAtom(badgeFilterAtom);
 
-  const [heroSelectMode, setHeroSelectMode] = React.useState("AND");
+  const [heroSelectMode, setHeroSelectMode] = useAtom(heroSelectModeAtom);
 
   const [allHeroes, allPets, allBadges] = useMemo(() => {
     const heroes = new Set<string>();
@@ -588,9 +636,15 @@ export default function Home() {
                         )}
                         onClick={() => {
                           if (selected) {
-                            setHeroFilter(heroFilter.filter((p) => p !== hero));
+                            setHeroFilter(
+                              heroFilter.filter((p) => p !== hero)
+                            ).catch((e) => {
+                              console.error(e);
+                            });
                           } else {
-                            setHeroFilter([...heroFilter, hero]);
+                            setHeroFilter([...heroFilter, hero]).catch((e) => {
+                              console.error(e);
+                            });
                           }
                         }}
                       >
@@ -604,9 +658,13 @@ export default function Home() {
                     )}
                     onClick={() => {
                       if (heroSelectMode === "AND") {
-                        setHeroSelectMode("OR");
+                        setHeroSelectMode("OR").catch((e) => {
+                          console.error(e);
+                        });
                       } else {
-                        setHeroSelectMode("AND");
+                        setHeroSelectMode("AND").catch((e) => {
+                          console.error(e);
+                        });
                       }
                     }}
                   >
@@ -627,9 +685,15 @@ export default function Home() {
                         )}
                         onClick={() => {
                           if (selected) {
-                            setPetFilter(petFilter.filter((p) => p !== pet));
+                            setPetFilter(
+                              petFilter.filter((p) => p !== pet)
+                            ).catch((e) => {
+                              console.error(e);
+                            });
                           } else {
-                            setPetFilter([...petFilter, pet]);
+                            setPetFilter([...petFilter, pet]).catch((e) => {
+                              console.error(e);
+                            });
                           }
                         }}
                       >
@@ -654,9 +718,15 @@ export default function Home() {
                           if (selected) {
                             setBadgeFilter(
                               badgeFilter.filter((p) => p !== badge)
-                            );
+                            ).catch((e) => {
+                              console.error(e);
+                            });
                           } else {
-                            setBadgeFilter([...badgeFilter, badge]);
+                            setBadgeFilter([...badgeFilter, badge]).catch(
+                              (e) => {
+                                console.error(e);
+                              }
+                            );
                           }
                         }}
                       >
@@ -684,9 +754,15 @@ export default function Home() {
                     selected={selected.includes(i)}
                     onClick={() => {
                       if (selected.includes(i)) {
-                        setSelected(selected.filter((x) => x !== i));
+                        setSelected(selected.filter((x) => x !== i)).catch(
+                          (e) => {
+                            console.error(e);
+                          }
+                        );
                       } else {
-                        setSelected([...selected, i]);
+                        setSelected([...selected, i]).catch((e) => {
+                          console.error(e);
+                        });
                       }
                     }}
                   ></Team>
@@ -709,7 +785,11 @@ export default function Home() {
                     checkUsed={false}
                     selected={true}
                     onClick={() => {
-                      setSelected(selected.filter((x) => x !== i));
+                      setSelected(selected.filter((x) => x !== i)).catch(
+                        (e) => {
+                          console.error(e);
+                        }
+                      );
                     }}
                   ></Team>
                 );
